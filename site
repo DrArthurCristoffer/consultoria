@@ -1,0 +1,1847 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arthur Cristoffer Advocacia | Direito Tributário, Empresarial e Trabalhista</title>
+  <meta name="description" content="Arthur Cristoffer Advocacia (OAB/MG 243.943). Recuperação tributária, transação fiscal na PGFN, defesa trabalhista e assessoria empresarial para PJ e PF no Vale do Aço e em todo o Brasil.">
+  <meta name="author" content="Dr. Arthur Cristoffer Moizes Gomes - OAB/MG 243.943">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Compartilhamento -->
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Arthur Cristoffer Advocacia | Tributário, Empresarial e Trabalhista">
+  <meta property="og:description" content="Soluções jurídicas estratégicas para empresas e pessoas físicas: revisão de tributos, PGFN, gestão de passivos trabalhistas e blindagem contratual.">
+  <meta property="og:site_name" content="Arthur Cristoffer Advocacia">
+
+  <!-- Favicon SVG embutido (sem arquivos externos) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2306131E'/%3E%3Crect x='4' y='4' width='56' height='56' rx='11' fill='none' stroke='%23C9A65B' stroke-width='2.5'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' fill='%23FFFFFF' font-family='sans-serif' font-weight='700' font-size='26'%3EAC%3C/text%3E%3C/svg%3E">
+
+  <!-- Google Fonts: Outfit e Space Grotesk -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS via CDN com tokens da identidade visual -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: {
+              950: '#040D14',
+              900: '#06131E',
+              800: '#0B1E2D',
+              700: '#122B3F'
+            },
+            cyanbrand: {
+              DEFAULT: '#1DA9CC',
+              hover: '#158BA8',
+              light: '#52CBE8'
+            },
+            gold: {
+              DEFAULT: '#C9A65B',
+              light: '#DFC384',
+              dark: '#A5833B'
+            },
+            surface: {
+              light: '#F7F8FA',
+              ink: '#0D2230',
+              muted: '#4A5A67'
+            }
+          },
+          fontFamily: {
+            sans: ['Outfit', 'system-ui', 'sans-serif'],
+            display: ['Space Grotesk', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+
+  <!-- Dados Estruturados Schema.org (LegalService) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "name": "Arthur Cristoffer Advocacia",
+    "description": "Escritório de advocacia especializado em Direito Tributário, Direito Empresarial e Direito Trabalhista para pessoas jurídicas e físicas.",
+    "telephone": "+55-31-97146-6764",
+    "email": "advogado.arthurcristoffer@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Avenida Um, nº 123, Bairro Mangueiras",
+      "addressLocality": "Coronel Fabriciano",
+      "addressRegion": "MG",
+      "postalCode": "35171-707",
+      "addressCountry": "BR"
+    },
+    "areaServed": "BR",
+    "openingHours": "Mo-Fr 08:00-18:00",
+    "sameAs": [
+      "https://www.instagram.com/arthurcristoffer/"
+    ]
+  }
+  </script>
+
+  <!-- CSS Complementar para padrões geométricos, animações suaves e acordeão -->
+  <style>
+    :root {
+      --bg-dark: #06131E;
+      --bg-card: #0B1E2D;
+      --brand-cyan: #1DA9CC;
+      --brand-gold: #C9A65B;
+    }
+
+    body {
+      font-family: 'Outfit', system-ui, -apple-system, sans-serif;
+      background-color: var(--bg-dark);
+      color: #0D2230;
+      overflow-x: hidden;
+    }
+
+    /* Padrão arquitetônico geométrico sutil para o Hero e seções escuras */
+    .hero-grid-bg {
+      background-color: #06131E;
+      background-image:
+        radial-gradient(circle at 80% 20%, rgba(29, 169, 204, 0.16) 0%, transparent 48%),
+        radial-gradient(circle at 12% 85%, rgba(201, 166, 91, 0.11) 0%, transparent 45%),
+        linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+      background-size: 100% 100%, 100% 100%, 56px 56px, 56px 56px;
+    }
+
+    .pillars-pattern {
+      background-color: #06131E;
+      background-image:
+        radial-gradient(ellipse at 50% 0%, rgba(29, 169, 204, 0.14) 0%, transparent 65%),
+        repeating-linear-gradient(135deg, rgba(201, 166, 91, 0.03) 0px, rgba(201, 166, 91, 0.03) 1px, transparent 1px, transparent 24px);
+    }
+
+    .solution-card {
+      background: linear-gradient(160deg, #0D2436 0%, #071521 100%);
+      transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    .solution-card:hover {
+      transform: translateY(-6px);
+      border-color: rgba(29, 169, 204, 0.55);
+      box-shadow: 0 20px 45px -12px rgba(2, 10, 18, 0.7), 0 0 0 1px rgba(201, 166, 91, 0.2);
+    }
+
+    /* Animação Reveal ao rolar */
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.65s cubic-bezier(0.22, 1, 0.36, 1), transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Acordeão FAQ sem marcador padrão */
+    details.faq-item > summary {
+      list-style: none;
+    }
+    details.faq-item > summary::-webkit-details-marker {
+      display: none;
+    }
+    details.faq-item[open] summary .faq-chevron {
+      transform: rotate(180deg);
+      color: #1DA9CC;
+    }
+
+    /* Pulso suave em CSS puro para o botão flutuante */
+    @keyframes fabPulse {
+      0% {
+        box-shadow: 0 10px 28px rgba(29, 169, 204, 0.42), 0 0 0 0 rgba(29, 169, 204, 0.55);
+      }
+      70% {
+        box-shadow: 0 10px 28px rgba(29, 169, 204, 0.42), 0 0 0 18px rgba(29, 169, 204, 0);
+      }
+      100% {
+        box-shadow: 0 10px 28px rgba(29, 169, 204, 0.42), 0 0 0 0 rgba(29, 169, 204, 0);
+      }
+    }
+    .fab-pulse {
+      animation: fabPulse 2.4s infinite ease-out;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .fab-pulse { animation: none; }
+      .reveal { opacity: 1; transform: none; transition: none; }
+    }
+  </style>
+</head>
+<body class="antialiased selection:bg-cyanbrand selection:text-white">
+
+  <!-- Link de acessibilidade -->
+  <a href="#inicio" class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:bg-cyanbrand focus:text-white focus:px-4 focus:py-2 focus:rounded-lg">
+    Ir para o conteúdo principal
+  </a>
+
+  <!-- =========================================================
+       1. HEADER FIXO (STICKY NAVBAR)
+  ========================================================== -->
+  <header id="site-header" class="fixed top-0 inset-x-0 z-50 bg-navy-900/95 backdrop-blur-md border-b border-white/10 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+
+        <!-- Logotipo Tipográfico + Monograma AC -->
+        <a href="#inicio" class="flex items-center gap-3 group focus:outline-none">
+          <div class="relative w-11 h-11 rounded-xl bg-navy-800 border border-gold/60 flex items-center justify-center shadow-lg group-hover:border-cyanbrand transition-colors">
+            <span class="font-display font-bold text-lg tracking-tight text-white">AC</span>
+            <span class="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 rounded-full bg-cyanbrand ring-2 ring-navy-900"></span>
+          </div>
+          <div class="leading-tight">
+            <span class="block text-white font-bold tracking-wide text-base sm:text-lg">ARTHUR CRISTOFFER</span>
+            <span class="block text-[10px] sm:text-[11px] uppercase tracking-[0.14em] text-gold font-medium">Advocacia Estratégica • OAB/MG 243.943</span>
+          </div>
+        </a>
+
+        <!-- Menu Desktop -->
+        <nav aria-label="Navegação principal" class="hidden lg:flex items-center gap-7">
+          <a href="#inicio" class="text-sm font-medium text-slate-200 hover:text-cyanbrand transition-colors">Início</a>
+          <a href="#solucoes" class="text-sm font-medium text-slate-200 hover:text-cyanbrand transition-colors">Soluções</a>
+          <a href="#diagnostico" class="text-sm font-medium text-slate-200 hover:text-cyanbrand transition-colors">Diagnóstico</a>
+          <a href="#contrato" class="text-sm font-medium text-slate-200 hover:text-cyanbrand transition-colors">Contrato Blindado</a>
+          <a href="#artigos" class="text-sm font-medium text-slate-200 hover:text-cyanbrand transition-colors">Artigos</a>
+          <a href="#faq" class="text-sm font-medium text-slate-200 hover:text-cyanbrand transition-colors">FAQ</a>
+          <a href="#contato" class="text-sm font-medium text-slate-200 hover:text-cyanbrand transition-colors">Contato</a>
+        </nav>
+
+        <!-- Botão CTA Topo + Botão Mobile -->
+        <div class="flex items-center gap-3">
+          <a
+            href="https://wa.me/5531971466764?text=Ol%C3%A1%2C%20Dr.%20Arthur%20Cristoffer!%20Gostaria%20de%20conversar%20sobre%20atendimento%20jur%C3%ADdico."
+            target="_blank"
+            rel="noopener noreferrer"
+            class="hidden sm:inline-flex items-center gap-2 bg-cyanbrand hover:bg-cyanbrand-hover text-white text-sm font-semibold px-4 py-2.5 rounded-xl shadow-lg shadow-cyanbrand/20 transition-all"
+          >
+            <!-- Ícone WhatsApp SVG -->
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 448 512" aria-hidden="true"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+            <span>WhatsApp Direto</span>
+          </a>
+
+          <!-- Botão Menu Mobile -->
+          <button
+            id="mobile-menu-btn"
+            type="button"
+            aria-label="Abrir menu de navegação"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+            class="lg:hidden inline-flex items-center justify-center p-2.5 rounded-xl text-slate-200 hover:text-white hover:bg-white/10 transition-colors"
+          >
+            <svg id="icon-menu-open" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+            <svg id="icon-menu-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Menu Mobile Dropdown -->
+    <div id="mobile-menu" class="lg:hidden hidden bg-navy-900 border-t border-white/10 shadow-2xl">
+      <nav aria-label="Navegação móvel" class="px-4 pt-3 pb-6 space-y-1">
+        <a href="#inicio" class="mobile-nav-link block px-4 py-3 rounded-xl text-base font-medium text-slate-100 hover:bg-navy-800 hover:text-cyanbrand">Início</a>
+        <a href="#solucoes" class="mobile-nav-link block px-4 py-3 rounded-xl text-base font-medium text-slate-100 hover:bg-navy-800 hover:text-cyanbrand">Soluções</a>
+        <a href="#diagnostico" class="mobile-nav-link block px-4 py-3 rounded-xl text-base font-medium text-slate-100 hover:bg-navy-800 hover:text-cyanbrand">Diagnóstico</a>
+        <a href="#contrato" class="mobile-nav-link block px-4 py-3 rounded-xl text-base font-medium text-slate-100 hover:bg-navy-800 hover:text-cyanbrand">Contrato Blindado</a>
+        <a href="#artigos" class="mobile-nav-link block px-4 py-3 rounded-xl text-base font-medium text-slate-100 hover:bg-navy-800 hover:text-cyanbrand">Artigos</a>
+        <a href="#faq" class="mobile-nav-link block px-4 py-3 rounded-xl text-base font-medium text-slate-100 hover:bg-navy-800 hover:text-cyanbrand">FAQ</a>
+        <a href="#contato" class="mobile-nav-link block px-4 py-3 rounded-xl text-base font-medium text-slate-100 hover:bg-navy-800 hover:text-cyanbrand">Contato</a>
+        <div class="pt-3">
+          <a
+            href="https://wa.me/5531971466764?text=Ol%C3%A1%2C%20Dr.%20Arthur%20Cristoffer!%20Gostaria%20de%20conversar%20sobre%20atendimento%20jur%C3%ADdico."
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex items-center justify-center gap-2 w-full bg-cyanbrand hover:bg-cyanbrand-hover text-white font-semibold px-4 py-3.5 rounded-xl"
+          >
+            <span>Falar no WhatsApp (31) 97146-6764</span>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================
+         2. HERO SECTION (TOPO DE ALTO IMPACTO)
+    ========================================================== -->
+    <section id="inicio" class="hero-grid-bg relative pt-32 pb-20 lg:pt-40 lg:pb-28 overflow-hidden">
+      <!-- Elementos decorativos sutis -->
+      <div class="pointer-events-none absolute top-24 right-0 w-96 h-96 bg-cyanbrand/10 rounded-full blur-3xl"></div>
+      <div class="pointer-events-none absolute bottom-0 left-0 w-80 h-80 bg-gold/10 rounded-full blur-3xl"></div>
+
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-12 gap-12 items-center">
+          <!-- Conteúdo principal -->
+          <div class="lg:col-span-8 space-y-6">
+            <div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-navy-800/90 border border-gold/40 text-gold text-xs sm:text-sm font-semibold tracking-wider uppercase">
+              <span class="w-2 h-2 rounded-full bg-cyanbrand"></span>
+              <span>OAB/MG 243.943 • Tributário • Empresarial • Trabalhista</span>
+            </div>
+
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-[1.1] tracking-tight">
+              Recuperação Tributária, <span class="text-cyanbrand">Defesa Empresarial</span> e Estratégia Trabalhista.
+            </h1>
+
+            <p class="text-lg sm:text-xl text-slate-300 leading-relaxed max-w-2xl font-light">
+              Soluções jurídicas estratégicas para empresas e pessoas físicas: revisão de tributos, transação fiscal na PGFN, gestão de passivos trabalhistas e blindagem contratual. Atendimento no Vale do Aço e em todo o Brasil.
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-4 pt-3">
+              <a
+                href="#diagnostico"
+                class="inline-flex items-center justify-center gap-2.5 bg-cyanbrand hover:bg-cyanbrand-hover text-white font-semibold text-base px-7 py-4 rounded-xl shadow-xl shadow-cyanbrand/25 transition-all hover:-translate-y-0.5"
+              >
+                <span>Solicitar Diagnóstico Jurídico</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+              </a>
+
+              <a
+                href="https://wa.me/5531971466764?text=Ol%C3%A1%2C%20Dr.%20Arthur%20Cristoffer!%20Vi%20o%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20conversa%20jur%C3%ADdica."
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center justify-center gap-2.5 bg-transparent hover:bg-white/5 text-white border border-white/25 hover:border-gold/70 font-semibold text-base px-7 py-4 rounded-xl transition-all"
+              >
+                <svg class="w-4 h-4 fill-cyanbrand" viewBox="0 0 448 512" aria-hidden="true"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+                <span>Falar no WhatsApp (31) 97146-6764</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Painel lateral jurídico de credibilidade -->
+          <div class="lg:col-span-4">
+            <div class="bg-navy-800/90 backdrop-blur border border-white/10 rounded-2xl p-6 sm:p-7 shadow-2xl relative overflow-hidden">
+              <div class="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-cyanbrand via-gold to-cyanbrand"></div>
+              <div class="flex items-center gap-3 mb-5">
+                <div class="w-12 h-12 rounded-xl bg-navy-900 border border-gold/50 flex items-center justify-center shrink-0">
+                  <!-- Ícone Balança da Justiça SVG -->
+                  <svg class="w-6 h-6 text-gold" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v18m-7-4h14M5 8l7-2 7 2M5 8l-2 5a3 3 0 006 0l-2-5m12 0l-2 5a3 3 0 006 0l-2-5"/>
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-xs uppercase tracking-widest text-gold font-semibold">Titular do Escritório</p>
+                  <p class="text-white font-semibold text-base">Dr. Arthur Cristoffer</p>
+                  <p class="text-slate-400 text-xs">Moizes Gomes • OAB/MG 243.943</p>
+                </div>
+              </div>
+
+              <div class="space-y-3.5 text-sm text-slate-300 border-t border-white/10 pt-5">
+                <div class="flex items-start gap-2.5">
+                  <svg class="w-4 h-4 text-cyanbrand shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg>
+                  <span>Atendimento consultivo, preventivo e contencioso para <strong>PJ e PF</strong>.</span>
+                </div>
+                <div class="flex items-start gap-2.5">
+                  <svg class="w-4 h-4 text-cyanbrand shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg>
+                  <span>Base presencial no <strong>Vale do Aço/MG</strong> e atuação <strong>100% digital</strong> no Brasil.</span>
+                </div>
+                <div class="flex items-start gap-2.5">
+                  <svg class="w-4 h-4 text-cyanbrand shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg>
+                  <span>Sigilo profissional absoluto e adequação integral à <strong>LGPD</strong>.</span>
+                </div>
+              </div>
+
+              <div class="mt-6 pt-5 border-t border-white/10 flex items-center justify-between text-xs text-slate-400">
+                <span>Seg a Sex • 08h às 18h</span>
+                <a href="#contrato" class="text-cyanbrand hover:text-cyanbrand-light font-semibold inline-flex items-center gap-1">
+                  Contrato Blindado →
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         3. FAIXA CLARA DE SEGMENTOS ATENDIDOS
+    ========================================================== -->
+    <section aria-labelledby="titulo-segmentos" class="bg-surface-light py-14 sm:py-16 border-b border-slate-200/80">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 reveal">
+        <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">
+          <div class="lg:max-w-sm">
+            <span class="text-xs font-semibold uppercase tracking-widest text-cyanbrand">Setores & Perfis</span>
+            <h2 id="titulo-segmentos" class="mt-1.5 text-2xl sm:text-3xl font-bold text-surface-ink leading-tight">
+              Atuação estratégica para negócios e profissionais de diversos segmentos
+            </h2>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 flex-1">
+            <!-- Segmento 1 -->
+            <div class="bg-white border border-slate-200/90 rounded-2xl px-4 py-4 flex items-center gap-3 shadow-sm hover:border-cyanbrand/50 transition-colors">
+              <div class="w-10 h-10 rounded-xl bg-navy-900/5 text-navy-900 flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5 text-cyanbrand" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15"/></svg>
+              </div>
+              <span class="text-sm font-semibold text-surface-ink">Indústrias & Metalurgia</span>
+            </div>
+
+            <!-- Segmento 2 -->
+            <div class="bg-white border border-slate-200/90 rounded-2xl px-4 py-4 flex items-center gap-3 shadow-sm hover:border-cyanbrand/50 transition-colors">
+              <div class="w-10 h-10 rounded-xl bg-navy-900/5 text-navy-900 flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5 text-cyanbrand" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 21v-7.5a.75.75 0 01.75-.75h3a.75.75 0 01.75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349m-16.5 11.65V9.35m0 0a3.001 3.001 0 003.75-.615A2.993 2.993 0 009.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 002.25 1.016c.896 0 1.7-.393 2.25-1.016a3.001 3.001 0 003.75.614"/></svg>
+              </div>
+              <span class="text-sm font-semibold text-surface-ink">Autopeças & Comércio</span>
+            </div>
+
+            <!-- Segmento 3 -->
+            <div class="bg-white border border-slate-200/90 rounded-2xl px-4 py-4 flex items-center gap-3 shadow-sm hover:border-cyanbrand/50 transition-colors">
+              <div class="w-10 h-10 rounded-xl bg-navy-900/5 text-navy-900 flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5 text-cyanbrand" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"/></svg>
+              </div>
+              <span class="text-sm font-semibold text-surface-ink">Clínicas & Saúde</span>
+            </div>
+
+            <!-- Segmento 4 -->
+            <div class="bg-white border border-slate-200/90 rounded-2xl px-4 py-4 flex items-center gap-3 shadow-sm hover:border-cyanbrand/50 transition-colors">
+              <div class="w-10 h-10 rounded-xl bg-navy-900/5 text-navy-900 flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5 text-cyanbrand" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38"/></svg>
+              </div>
+              <span class="text-sm font-semibold text-surface-ink">Locações & Serviços</span>
+            </div>
+
+            <!-- Segmento 5 -->
+            <div class="bg-white border border-slate-200/90 rounded-2xl px-4 py-4 flex items-center gap-3 shadow-sm hover:border-cyanbrand/50 transition-colors">
+              <div class="w-10 h-10 rounded-xl bg-navy-900/5 text-navy-900 flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5 text-cyanbrand" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941"/></svg>
+              </div>
+              <span class="text-sm font-semibold text-surface-ink">Simples, Presumido & Real</span>
+            </div>
+
+            <!-- Segmento 6 -->
+            <div class="bg-white border border-slate-200/90 rounded-2xl px-4 py-4 flex items-center gap-3 shadow-sm hover:border-cyanbrand/50 transition-colors">
+              <div class="w-10 h-10 rounded-xl bg-navy-900/5 text-navy-900 flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5 text-gold" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"/></svg>
+              </div>
+              <span class="text-sm font-semibold text-surface-ink">Pessoa Física (PF)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         4. FAIXA ESCURA DE PILARES & COBERTURA
+    ========================================================== -->
+    <section aria-label="Pilares técnicos e abrangência" class="pillars-pattern py-16 border-b border-white/10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 reveal">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+          <!-- Pilar 1 -->
+          <div class="text-center p-6 rounded-2xl bg-navy-800/60 border border-white/10 hover:border-gold/40 transition-colors">
+            <div class="w-12 h-12 mx-auto mb-4 rounded-xl bg-cyanbrand/10 flex items-center justify-center text-cyanbrand">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/></svg>
+            </div>
+            <h3 class="font-display text-xl font-bold text-cyanbrand">OAB/MG 243.943</h3>
+            <p class="mt-1.5 text-sm text-slate-300">Atuação ética e especializada</p>
+          </div>
+
+          <!-- Pilar 2 -->
+          <div class="text-center p-6 rounded-2xl bg-navy-800/60 border border-white/10 hover:border-gold/40 transition-colors">
+            <div class="w-12 h-12 mx-auto mb-4 rounded-xl bg-cyanbrand/10 flex items-center justify-center text-cyanbrand">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </div>
+            <h3 class="font-display text-xl font-bold text-cyanbrand">Últimos 5 anos</h3>
+            <p class="mt-1.5 text-sm text-slate-300">Revisão de créditos tributários (CTN)</p>
+          </div>
+
+          <!-- Pilar 3 -->
+          <div class="text-center p-6 rounded-2xl bg-navy-800/60 border border-white/10 hover:border-gold/40 transition-colors">
+            <div class="w-12 h-12 mx-auto mb-4 rounded-xl bg-cyanbrand/10 flex items-center justify-center text-cyanbrand">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"/></svg>
+            </div>
+            <h3 class="font-display text-xl font-bold text-cyanbrand">Até 145 meses</h3>
+            <p class="mt-1.5 text-sm text-slate-300">Estratégias de Transação PGFN</p>
+          </div>
+
+          <!-- Pilar 4 -->
+          <div class="text-center p-6 rounded-2xl bg-navy-800/60 border border-white/10 hover:border-gold/40 transition-colors">
+            <div class="w-12 h-12 mx-auto mb-4 rounded-xl bg-cyanbrand/10 flex items-center justify-center text-cyanbrand">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z"/></svg>
+            </div>
+            <h3 class="font-display text-xl font-bold text-cyanbrand">PF & PJ</h3>
+            <p class="mt-1.5 text-sm text-slate-300">Preventivo, consultivo e contencioso</p>
+          </div>
+
+          <!-- Pilar 5 -->
+          <div class="text-center p-6 rounded-2xl bg-navy-800/60 border border-white/10 hover:border-gold/40 transition-colors sm:col-span-2 lg:col-span-1">
+            <div class="w-12 h-12 mx-auto mb-4 rounded-xl bg-gold/15 flex items-center justify-center text-gold">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/></svg>
+            </div>
+            <h3 class="font-display text-xl font-bold text-gold">Todo o Brasil</h3>
+            <p class="mt-1.5 text-sm text-slate-300">Atendimento digital e presencial em MG</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         5. SEÇÃO #DIAGNOSTICO (2 COLUNAS + FORMULÁRIO INTERATIVO)
+    ========================================================== -->
+    <section id="diagnostico" class="bg-surface-light py-20 lg:py-24">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-12 gap-12 items-start">
+
+          <!-- Coluna Esquerda: Argumentação Estratégica -->
+          <div class="lg:col-span-5 lg:sticky lg:top-28 space-y-6 reveal">
+            <span class="inline-block text-xs font-bold uppercase tracking-[0.18em] text-cyanbrand">
+              Atendimento Especializado
+            </span>
+
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-surface-ink leading-[1.15]">
+              Leve sua empresa da <span class="opacity-45 line-through decoration-2 decoration-surface-muted">insegurança</span> à <span class="text-cyanbrand">proteção jurídica.</span>
+            </h2>
+
+            <p class="text-lg text-surface-muted leading-relaxed font-light">
+              Diagnóstico inicial estruturado e sigiloso para mapear riscos fiscais, trabalhistas e contratuais, indicando caminhos técnicos compatíveis com a realidade do seu negócio ou demanda pessoal.
+            </p>
+
+            <ul class="space-y-4 pt-2">
+              <li class="flex items-start gap-3">
+                <span class="w-6 h-6 rounded-full bg-cyanbrand/15 text-cyanbrand flex items-center justify-center shrink-0 mt-0.5">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg>
+                </span>
+                <span class="text-surface-ink font-medium">Análise técnica personalizada conforme o porte e regime tributário</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="w-6 h-6 rounded-full bg-cyanbrand/15 text-cyanbrand flex items-center justify-center shrink-0 mt-0.5">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg>
+                </span>
+                <span class="text-surface-ink font-medium">Sigilo absoluto e conformidade integral com a LGPD</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="w-6 h-6 rounded-full bg-cyanbrand/15 text-cyanbrand flex items-center justify-center shrink-0 mt-0.5">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg>
+                </span>
+                <span class="text-surface-ink font-medium">Retorno direto pelo Dr. Arthur via WhatsApp ou E-mail</span>
+              </li>
+            </ul>
+
+            <!-- Bloco de contato direto -->
+            <div class="pt-4 border-t border-slate-200 flex flex-wrap gap-4 text-sm">
+              <a href="https://wa.me/5531971466764?text=Ol%C3%A1%2C%20Dr.%20Arthur!%20Gostaria%20de%20solicitar%20um%20diagn%C3%B3stico%20jur%C3%ADdico." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-surface-ink font-semibold hover:text-cyanbrand transition-colors">
+                <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+                (31) 97146-6764
+              </a>
+              <span class="text-slate-300">|</span>
+              <a href="mailto:advogado.arthurcristoffer@gmail.com" class="text-surface-muted hover:text-cyanbrand transition-colors">
+                advogado.arthurcristoffer@gmail.com
+              </a>
+            </div>
+          </div>
+
+          <!-- Coluna Direita: Card Elevado com Formulário Interativo -->
+          <div class="lg:col-span-7 reveal">
+            <div class="bg-white rounded-2xl shadow-xl shadow-slate-900/5 border border-slate-200/80 overflow-hidden">
+              <div class="h-1.5 bg-gradient-to-r from-cyanbrand via-gold to-cyanbrand"></div>
+              <div class="p-6 sm:p-8 lg:p-10">
+                <div class="mb-6">
+                  <h3 class="text-2xl font-bold text-surface-ink">Solicite seu Diagnóstico Jurídico</h3>
+                  <p class="text-sm text-surface-muted mt-1">Preencha os dados abaixo e escolha enviar diretamente para o WhatsApp ou E-mail do escritório.</p>
+                </div>
+
+                <!-- Feedback visual (substitui qualquer alert) -->
+                <div id="diag-feedback" class="hidden mb-6 p-4 rounded-xl text-sm font-medium" role="status" aria-live="polite"></div>
+
+                <form id="diagnostico-form" class="space-y-5" novalidate>
+                  <div class="grid sm:grid-cols-2 gap-4">
+                    <div>
+                      <label for="diag-nome" class="block text-sm font-semibold text-surface-ink mb-1.5">Nome completo *</label>
+                      <input type="text" id="diag-nome" name="nome" required placeholder="Seu nome completo" class="w-full px-4 py-3 rounded-xl border border-slate-300 text-surface-ink placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-cyanbrand focus:border-cyanbrand transition">
+                    </div>
+
+                    <div>
+                      <label for="diag-perfil" class="block text-sm font-semibold text-surface-ink mb-1.5">Perfil de atendimento *</label>
+                      <select id="diag-perfil" name="perfil" required class="w-full px-4 py-3 rounded-xl border border-slate-300 text-surface-ink bg-white focus:outline-none focus:ring-2 focus:ring-cyanbrand focus:border-cyanbrand transition">
+                        <option value="Empresa (PJ)">Empresa (PJ)</option>
+                        <option value="Pessoa Física (PF)">Pessoa Física (PF)</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="grid sm:grid-cols-2 gap-4">
+                    <div>
+                      <label for="diag-empresa" class="block text-sm font-semibold text-surface-ink mb-1.5">Empresa ou CNPJ <span class="text-slate-400 font-normal">(opcional)</span></label>
+                      <input type="text" id="diag-empresa" name="empresa" placeholder="Razão social ou CNPJ" class="w-full px-4 py-3 rounded-xl border border-slate-300 text-surface-ink placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-cyanbrand focus:border-cyanbrand transition">
+                    </div>
+
+                    <div>
+                      <label for="diag-whatsapp" class="block text-sm font-semibold text-surface-ink mb-1.5">WhatsApp *</label>
+                      <input type="tel" id="diag-whatsapp" name="whatsapp" required placeholder="(31) 99999-9999" class="phone-mask w-full px-4 py-3 rounded-xl border border-slate-300 text-surface-ink placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-cyanbrand focus:border-cyanbrand transition">
+                    </div>
+                  </div>
+
+                  <div class="grid sm:grid-cols-2 gap-4">
+                    <div>
+                      <label for="diag-email" class="block text-sm font-semibold text-surface-ink mb-1.5">E-mail *</label>
+                      <input type="email" id="diag-email" name="email" required placeholder="seu@email.com.br" class="w-full px-4 py-3 rounded-xl border border-slate-300 text-surface-ink placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-cyanbrand focus:border-cyanbrand transition">
+                    </div>
+
+                    <div>
+                      <label for="diag-area" class="block text-sm font-semibold text-surface-ink mb-1.5">Área de interesse *</label>
+                      <select id="diag-area" name="area" required class="w-full px-4 py-3 rounded-xl border border-slate-300 text-surface-ink bg-white focus:outline-none focus:ring-2 focus:ring-cyanbrand focus:border-cyanbrand transition">
+                        <option value="Recuperação de Créditos Tributários">Recuperação de Créditos Tributários</option>
+                        <option value="Regularização Fiscal / PGFN">Regularização Fiscal / PGFN</option>
+                        <option value="Renegociação de Dívidas Bancárias">Renegociação de Dívidas Bancárias</option>
+                        <option value="Defesa e Passivo Trabalhista">Defesa e Passivo Trabalhista</option>
+                        <option value="Assessoria Jurídica Mensal">Assessoria Jurídica Mensal</option>
+                        <option value="Reforma Tributária / Planejamento">Reforma Tributária / Planejamento</option>
+                        <option value="Direito Previdenciário / Cível">Direito Previdenciário / Cível</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div>
+                    <label for="diag-mensagem" class="block text-sm font-semibold text-surface-ink mb-1.5">Breve descrição da situação *</label>
+                    <textarea id="diag-mensagem" name="mensagem" rows="3" required placeholder="Conte resumidamente sua necessidade (ex.: parcelamento na PGFN, revisão de PIS/COFINS, contrato ou demanda trabalhista)..." class="w-full px-4 py-3 rounded-xl border border-slate-300 text-surface-ink placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-cyanbrand focus:border-cyanbrand transition resize-y"></textarea>
+                  </div>
+
+                  <div class="flex flex-col sm:flex-row gap-3 pt-2">
+                    <button
+                      type="button"
+                      id="btn-enviar-whatsapp"
+                      class="flex-1 inline-flex items-center justify-center gap-2 bg-cyanbrand hover:bg-cyanbrand-hover text-white font-semibold px-6 py-4 rounded-xl shadow-lg shadow-cyanbrand/20 transition-all cursor-pointer"
+                    >
+                      <svg class="w-5 h-5 fill-current" viewBox="0 0 448 512" aria-hidden="true"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+                      <span>Enviar e Falar no WhatsApp</span>
+                    </button>
+
+                    <button
+                      type="button"
+                      id="btn-enviar-email"
+                      class="inline-flex items-center justify-center gap-2 bg-navy-900 hover:bg-navy-800 text-white font-semibold px-6 py-4 rounded-xl transition-all cursor-pointer"
+                    >
+                      <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/></svg>
+                      <span>Enviar por E-mail</span>
+                    </button>
+                  </div>
+
+                  <p class="text-xs text-slate-400 text-center">
+                    Seus dados são tratados exclusivamente para contato jurídico e protegidos pela LGPD (Lei nº 13.709/2018).
+                  </p>
+                </form>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         6. SEÇÃO #SOLUCOES (GRID 3x2 DE CARDS ESCUROS MODERNOS)
+    ========================================================== -->
+    <section id="solucoes" class="bg-navy-900 py-20 lg:py-28 relative overflow-hidden">
+      <div class="pointer-events-none absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-72 bg-cyanbrand/10 rounded-full blur-3xl"></div>
+
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-14 reveal">
+          <span class="inline-block text-xs font-bold uppercase tracking-[0.18em] text-gold mb-3">
+            Áreas de Atuação
+          </span>
+          <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white leading-tight">
+            Soluções pensadas na <span class="text-cyanbrand">necessidade do seu negócio.</span>
+          </h2>
+          <p class="mt-4 text-slate-300 text-base sm:text-lg font-light">
+            Atuação técnica multidisciplinar para proteger patrimônio, reorganizar passivos e oferecer previsibilidade jurídica para empresas e pessoas físicas.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+          <!-- Card 1: Regularize -->
+          <article class="solution-card rounded-[20px] border border-white/10 p-7 flex flex-col justify-between min-h-[340px] relative overflow-hidden reveal">
+            <div class="pointer-events-none absolute -top-10 -right-10 w-36 h-36 rounded-full bg-cyanbrand/10 blur-2xl"></div>
+            <div>
+              <span class="inline-block px-4 py-1 rounded-full text-xs font-semibold uppercase tracking-wider text-cyanbrand-light bg-cyanbrand/15 border border-cyanbrand/35 mb-5">
+                Regularize
+              </span>
+              <h3 class="text-2xl font-bold text-white leading-snug mb-3">
+                Regularização Fiscal & PGFN
+              </h3>
+              <p class="text-slate-300 text-sm sm:text-base font-light leading-relaxed">
+                Estratégias de transação tributária individual ou por edital, revisão de execuções fiscais e parcelamentos sustentáveis para o fluxo de caixa.
+              </p>
+            </div>
+            <div class="pt-6 mt-6 border-t border-white/10 flex items-center justify-between gap-3">
+              <button type="button" data-select-area="Regularização Fiscal / PGFN" class="select-area-btn inline-flex items-center gap-2 bg-cyanbrand hover:bg-cyanbrand-hover text-white text-xs sm:text-sm font-semibold uppercase tracking-wide px-4 py-2.5 rounded-xl transition-colors cursor-pointer">
+                <span>Solicitar análise</span>
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"/></svg>
+              </button>
+              <a href="https://wa.me/5531971466764?text=Ol%C3%A1%2C%20Dr.%20Arthur!%20Tenho%20interesse%20em%20Regulariza%C3%A7%C3%A3o%20Fiscal%20e%20PGFN." target="_blank" rel="noopener noreferrer" class="text-xs font-medium text-gold hover:text-gold-light transition-colors">
+                WhatsApp →
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 2: Recupere -->
+          <article class="solution-card rounded-[20px] border border-white/10 p-7 flex flex-col justify-between min-h-[340px] relative overflow-hidden reveal">
+            <div class="pointer-events-none absolute -top-10 -right-10 w-36 h-36 rounded-full bg-gold/10 blur-2xl"></div>
+            <div>
+              <span class="inline-block px-4 py-1 rounded-full text-xs font-semibold uppercase tracking-wider text-cyanbrand-light bg-cyanbrand/15 border border-cyanbrand/35 mb-5">
+                Recupere
+              </span>
+              <h3 class="text-2xl font-bold text-white leading-snug mb-3">
+                Recuperação de Créditos Tributários
+              </h3>
+              <p class="text-slate-300 text-sm sm:text-base font-light leading-relaxed">
+                Revisão técnica dos últimos 5 anos para identificar tributos pagos a maior ou em duplicidade, incluindo PIS/COFINS monofásico e ICMS.
+              </p>
+            </div>
+            <div class="pt-6 mt-6 border-t border-white/10 flex items-center justify-between gap-3">
+              <button type="button" data-select-area="Recuperação de Créditos Tributários" class="select-area-btn inline-flex items-center gap-2 bg-cyanbrand hover:bg-cyanbrand-hover text-white text-xs sm:text-sm font-semibold uppercase tracking-wide px-4 py-2.5 rounded-xl transition-colors cursor-pointer">
+                <span>Solicitar análise</span>
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"/></svg>
+              </button>
+              <a href="https://wa.me/5531971466764?text=Ol%C3%A1%2C%20Dr.%20Arthur!%20Tenho%20interesse%20em%20Recupera%C3%A7%C3%A3o%20de%20Cr%C3%A9ditos%20Tribut%C3%A1rios." target="_blank" rel="noopener noreferrer" class="text-xs font-medium text-gold hover:text-gold-light transition-colors">
+                WhatsApp →
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 3: Renegocie -->
+          <article class="solution-card rounded-[20px] border border-white/10 p-7 flex flex-col justify-between min-h-[340px] relative overflow-hidden reveal">
+            <div class="pointer-events-none absolute -top-10 -right-10 w-36 h-36 rounded-full bg-cyanbrand/10 blur-2xl"></div>
+            <div>
+              <span class="inline-block px-4 py-1 rounded-full text-xs font-semibold uppercase tracking-wider text-cyanbrand-light bg-cyanbrand/15 border border-cyanbrand/35 mb-5">
+                Renegocie
+              </span>
+              <h3 class="text-2xl font-bold text-white leading-snug mb-3">
+                Auditoria & Renegociação Bancária
+              </h3>
+              <p class="text-slate-300 text-sm sm:text-base font-light leading-relaxed">
+                Análise jurídica de contratos bancários empresariais para contestar encargos irregulares e negociar condições compatíveis com a realidade do negócio.
+              </p>
+            </div>
+            <div class="pt-6 mt-6 border-t border-white/10 flex items-center justify-between gap-3">
+              <button type="button" data-select-area="Renegociação de Dívidas Bancárias" class="select-area-btn inline-flex items-center gap-2 bg-cyanbrand hover:bg-cyanbrand-hover text-white text-xs sm:text-sm font-semibold uppercase tracking-wide px-4 py-2.5 rounded-xl transition-colors cursor-pointer">
+                <span>Solicitar análise</span>
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"/></svg>
+              </button>
+              <a href="https://wa.me/5531971466764?text=Ol%C3%A1%2C%20Dr.%20Arthur!%20Gostaria%20de%20analisar%20uma%20renegocia%C3%A7%C3%A3o%20de%20d%C3%ADvida%20banc%C3%A1ria." target="_blank" rel="noopener noreferrer" class="text-xs font-medium text-gold hover:text-gold-light transition-colors">
+                WhatsApp →
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 4: Trabalhista -->
+          <article class="solution-card rounded-[20px] border border-white/10 p-7 flex flex-col justify-between min-h-[340px] relative overflow-hidden reveal">
+            <div class="pointer-events-none absolute -top-10 -right-10 w-36 h-36 rounded-full bg-gold/10 blur-2xl"></div>
+            <div>
+              <span class="inline-block px-4 py-1 rounded-full text-xs font-semibold uppercase tracking-wider text-gold-light bg-gold/15 border border-gold/35 mb-5">
+                Trabalhista
+              </span>
+              <h3 class="text-2xl font-bold text-white leading-snug mb-3">
+                Gestão de Passivos Trabalhistas
+              </h3>
+              <p class="text-slate-300 text-sm sm:text-base font-light leading-relaxed">
+                Defesa estratégica em reclamatórias, adequação de jornadas e escalas, regimento interno, controle de ponto e prevenção de riscos.
+              </p>
+            </div>
+            <div class="pt-6 mt-6 border-t border-white/10 flex items-center justify-between gap-3">
+              <button type="button" data-select-area="Defesa e Passivo Trabalhista" class="select-area-btn inline-flex items-center gap-2 bg-cyanbrand hover:bg-cyanbrand-hover text-white text-xs sm:text-sm font-semibold uppercase tracking-wide px-4 py-2.5 rounded-xl transition-colors cursor-pointer">
+                <span>Solicitar análise</span>
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"/></svg>
+              </button>
+              <a href="https://wa.me/5531971466764?text=Ol%C3%A1%2C%20Dr.%20Arthur!%20Preciso%20de%20apoio%20em%20Gest%C3%A3o%20de%20Passivos%20Trabalhistas." target="_blank" rel="noopener noreferrer" class="text-xs font-medium text-gold hover:text-gold-light transition-colors">
+                WhatsApp →
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 5: Preventivo -->
+          <article class="solution-card rounded-[20px] border border-white/10 p-7 flex flex-col justify-between min-h-[340px] relative overflow-hidden reveal">
+            <div class="pointer-events-none absolute -top-10 -right-10 w-36 h-36 rounded-full bg-cyanbrand/10 blur-2xl"></div>
+            <div>
+              <span class="inline-block px-4 py-1 rounded-full text-xs font-semibold uppercase tracking-wider text-gold-light bg-gold/15 border border-gold/35 mb-5">
+                Preventivo
+              </span>
+              <h3 class="text-2xl font-bold text-white leading-snug mb-3">
+                Assessoria Jurídica Empresarial
+              </h3>
+              <p class="text-slate-300 text-sm sm:text-base font-light leading-relaxed">
+                Acompanhamento mensal contínuo (partido), elaboração e revisão de contratos comerciais, notificações extrajudiciais e treinamento de gestores.
+              </p>
+            </div>
+            <div class="pt-6 mt-6 border-t border-white/10 flex items-center justify-between gap-3">
+              <button type="button" data-select-area="Assessoria Jurídica Mensal" class="select-area-btn inline-flex items-center gap-2 bg-cyanbrand hover:bg-cyanbrand-hover text-white text-xs sm:text-sm font-semibold uppercase tracking-wide px-4 py-2.5 rounded-xl transition-colors cursor-pointer">
+                <span>Solicitar análise</span>
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"/></svg>
+              </button>
+              <a href="https://wa.me/5531971466764?text=Ol%C3%A1%2C%20Dr.%20Arthur!%20Gostaria%20de%20conhecer%20a%20Assessoria%20Jur%C3%ADdica%20Empresarial%20Mensal." target="_blank" rel="noopener noreferrer" class="text-xs font-medium text-gold hover:text-gold-light transition-colors">
+                WhatsApp →
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 6: Estratégico -->
+          <article class="solution-card rounded-[20px] border border-white/10 p-7 flex flex-col justify-between min-h-[340px] relative overflow-hidden reveal">
+            <div class="pointer-events-none absolute -top-10 -right-10 w-36 h-36 rounded-full bg-gold/10 blur-2xl"></div>
+            <div>
+              <span class="inline-block px-4 py-1 rounded-full text-xs font-semibold uppercase tracking-wider text-gold-light bg-gold/15 border border-gold/35 mb-5">
+                Estratégico
+              </span>
+              <h3 class="text-2xl font-bold text-white leading-snug mb-3">
+                Reforma Tributária, Cível & Previdenciário
+              </h3>
+              <p class="text-slate-300 text-sm sm:text-base font-light leading-relaxed">
+                Planejamento para a transição do IBS/CBS no Simples Nacional e atuação dedicada para demandas cíveis e previdenciárias (PF e PJ).
+              </p>
+            </div>
+            <div class="pt-6 mt-6 border-t border-white/10 flex items-center justify-between gap-3">
+              <button type="button" data-select-area="Reforma Tributária / Planejamento" class="select-area-btn inline-flex items-center gap-2 bg-cyanbrand hover:bg-cyanbrand-hover text-white text-xs sm:text-sm font-semibold uppercase tracking-wide px-4 py-2.5 rounded-xl transition-colors cursor-pointer">
+                <span>Solicitar análise</span>
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"/></svg>
+              </button>
+              <a href="https://wa.me/5531971466764?text=Ol%C3%A1%2C%20Dr.%20Arthur!%20Gostaria%20de%20conversar%20sobre%20Reforma%20Tribut%C3%A1ria%2C%20C%C3%ADvel%20ou%20Previdenci%C3%A1rio." target="_blank" rel="noopener noreferrer" class="text-xs font-medium text-gold hover:text-gold-light transition-colors">
+                WhatsApp →
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         7. SEÇÃO #CONTRATO — CONTRATO MODELO BLINDADO + NEWSLETTER
+    ========================================================== -->
+    <section id="contrato" class="hero-grid-bg py-20 lg:py-28 border-t border-white/10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-12 gap-12 items-center">
+
+          <!-- Coluna Esquerda: Apresentação do Material -->
+          <div class="lg:col-span-6 space-y-6 reveal">
+            <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gold/15 border border-gold/40 text-gold text-xs font-bold uppercase tracking-widest">
+              Material Gratuito + Informativo
+            </span>
+
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white leading-tight">
+              Baixe o <span class="text-cyanbrand">Contrato Modelo Blindado</span> e receba análises jurídicas.
+            </h2>
+
+            <p class="text-slate-300 text-lg font-light leading-relaxed">
+              Acesse gratuitamente nossa estrutura de cláusulas essenciais de proteção contratual para prestadores de serviço e empresas — liberada imediatamente após o preenchimento rápido ao lado.
+            </p>
+
+            <div class="grid sm:grid-cols-2 gap-4 pt-2">
+              <div class="p-4 rounded-2xl bg-navy-800/80 border border-white/10">
+                <p class="text-gold font-semibold text-sm mb-1">Cláusulas Essenciais</p>
+                <p class="text-slate-300 text-xs leading-relaxed">Objeto delimitado, multa por inadimplemento, rescisão, confidencialidade e foro estratégico.</p>
+              </div>
+              <div class="p-4 rounded-2xl bg-navy-800/80 border border-white/10">
+                <p class="text-cyanbrand font-semibold text-sm mb-1">Newsletter Segmentada</p>
+                <p class="text-slate-300 text-xs leading-relaxed">Escolha receber alertas práticos apenas das áreas do Direito que realmente importam para você.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Coluna Direita: Preview do Documento + Captura e Liberação -->
+          <div class="lg:col-span-6 reveal">
+            <div class="bg-navy-800 border border-white/15 rounded-2xl p-6 sm:p-8 shadow-2xl relative overflow-hidden">
+              <div class="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-gold via-cyanbrand to-gold"></div>
+
+              <!-- Mini Preview Visual do Documento -->
+              <div class="flex items-center gap-4 p-4 rounded-xl bg-navy-900/90 border border-white/10 mb-6">
+                <div class="w-12 h-14 rounded-lg bg-gradient-to-br from-gold/25 to-cyanbrand/20 border border-gold/50 flex flex-col items-center justify-center shrink-0">
+                  <svg class="w-6 h-6 text-gold" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"/>
+                  </svg>
+                  <span class="text-[9px] font-bold text-white uppercase mt-0.5">MODELO</span>
+                </div>
+                <div>
+                  <p class="text-white font-bold text-base">Contrato Modelo Blindado (Edição 2026)</p>
+                  <p class="text-xs text-slate-400">Elaborado por Arthur Cristoffer Advocacia • Liberação instantânea</p>
+                </div>
+              </div>
+
+              <!-- Feedback inline -->
+              <div id="contrato-feedback" class="hidden mb-5 p-4 rounded-xl text-sm font-medium" role="status" aria-live="polite"></div>
+
+              <!-- Formulário de Liberação -->
+              <form id="contrato-form" class="space-y-4" novalidate>
+                <div>
+                  <label for="lead-nome" class="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-1.5">Seu nome *</label>
+                  <input type="text" id="lead-nome" name="nome" required placeholder="Nome completo" class="w-full px-4 py-3 rounded-xl bg-navy-900 border border-white/15 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-cyanbrand">
+                </div>
+
+                <div class="grid sm:grid-cols-2 gap-4">
+                  <div>
+                    <label for="lead-email" class="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-1.5">E-mail *</label>
+                    <input type="email" id="lead-email" name="email" required placeholder="seu@email.com.br" class="w-full px-4 py-3 rounded-xl bg-navy-900 border border-white/15 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-cyanbrand">
+                  </div>
+                  <div>
+                    <label for="lead-whatsapp" class="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-1.5">WhatsApp *</label>
+                    <input type="tel" id="lead-whatsapp" name="whatsapp" required placeholder="(31) 99999-9999" class="phone-mask w-full px-4 py-3 rounded-xl bg-navy-900 border border-white/15 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-cyanbrand">
+                  </div>
+                </div>
+
+                <!-- Checkboxes Newsletter Segmentada -->
+                <fieldset class="pt-1">
+                  <legend class="block text-xs font-semibold uppercase tracking-wider text-gold mb-2.5">
+                    Newsletter Jurídica Segmentada (selecione os temas):
+                  </legend>
+                  <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+                    <label class="flex items-center gap-2.5 p-3 rounded-xl bg-navy-900/80 border border-white/10 hover:border-cyanbrand/50 cursor-pointer transition">
+                      <input type="checkbox" name="newsletter_area" value="Tributário" checked class="w-4 h-4 accent-[#1DA9CC] rounded">
+                      <span class="text-sm text-slate-200">Tributário</span>
+                    </label>
+                    <label class="flex items-center gap-2.5 p-3 rounded-xl bg-navy-900/80 border border-white/10 hover:border-cyanbrand/50 cursor-pointer transition">
+                      <input type="checkbox" name="newsletter_area" value="Trabalhista" class="w-4 h-4 accent-[#1DA9CC] rounded">
+                      <span class="text-sm text-slate-200">Trabalhista</span>
+                    </label>
+                    <label class="flex items-center gap-2.5 p-3 rounded-xl bg-navy-900/80 border border-white/10 hover:border-cyanbrand/50 cursor-pointer transition">
+                      <input type="checkbox" name="newsletter_area" value="Empresarial" checked class="w-4 h-4 accent-[#1DA9CC] rounded">
+                      <span class="text-sm text-slate-200">Empresarial</span>
+                    </label>
+                  </div>
+                </fieldset>
+
+                <button
+                  type="submit"
+                  class="w-full inline-flex items-center justify-center gap-2 bg-cyanbrand hover:bg-cyanbrand-hover text-white font-semibold py-4 px-6 rounded-xl shadow-lg shadow-cyanbrand/25 transition-all cursor-pointer"
+                >
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg>
+                  <span>Liberar Download do Contrato Blindado</span>
+                </button>
+              </form>
+
+              <!-- Área liberada após o cadastro -->
+              <div id="contrato-liberado" class="hidden space-y-4">
+                <div class="p-4 rounded-xl bg-emerald-500/15 border border-emerald-400/35 text-emerald-200 text-sm">
+                  <strong class="block text-white mb-1">Acesso liberado com sucesso!</strong>
+                  Seu cadastro na newsletter foi registrado. Clique abaixo para baixar o Contrato Modelo Blindado imediatamente.
+                </div>
+
+                <button
+                  type="button"
+                  id="btn-baixar-contrato"
+                  class="w-full inline-flex items-center justify-center gap-2 bg-gold hover:bg-gold-dark text-navy-950 font-bold py-4 px-6 rounded-xl transition-all cursor-pointer"
+                >
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg>
+                  <span>Baixar Contrato Modelo Blindado Agora</span>
+                </button>
+
+                <a
+                  id="btn-contrato-whatsapp"
+                  href="https://wa.me/5531971466764?text=Ol%C3%A1%2C%20Dr.%20Arthur!%20Baixei%20o%20Contrato%20Modelo%20Blindado%20e%20gostaria%20de%20uma%20vers%C3%A3o%20personalizada%20para%20a%20minha%20empresa."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="w-full inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/15 text-white text-sm font-semibold py-3.5 px-5 rounded-xl border border-white/15 transition-all"
+                >
+                  <span>Solicitar versão personalizada no WhatsApp</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         8. SEÇÃO #ARTIGOS — CONTEÚDOS E INFORMATIVOS JURÍDICOS
+    ========================================================== -->
+    <section id="artigos" class="bg-surface-light py-20 lg:py-24">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12 reveal">
+          <div>
+            <span class="text-xs font-bold uppercase tracking-[0.18em] text-cyanbrand">Conhecimento Estratégico</span>
+            <h2 class="mt-2 text-3xl sm:text-4xl font-extrabold text-surface-ink">
+              Conteúdos e Informativos Jurídicos
+            </h2>
+          </div>
+          <p class="text-surface-muted max-w-md text-sm sm:text-base">
+            Artigos objetivos sobre legislação tributária, gestão de passivos e segurança contratual para apoiar decisões empresariais.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+
+          <!-- Artigo 1 -->
+          <article class="bg-white rounded-[20px] shadow-md shadow-slate-900/5 border border-slate-200/80 overflow-hidden flex flex-col justify-between group hover:shadow-xl transition-all reveal">
+            <div>
+              <!-- Capa vetorial própria em gradiente + SVG -->
+              <div class="relative h-44 bg-gradient-to-br from-navy-900 via-navy-800 to-cyanbrand/40 p-6 flex items-end overflow-hidden">
+                <svg class="absolute -right-6 -top-6 w-36 h-36 text-white/10" fill="none" stroke="currentColor" stroke-width="1.2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21"/></svg>
+                <span class="relative z-10 px-3.5 py-1 rounded-full bg-cyanbrand text-white text-xs font-semibold uppercase tracking-wider">
+                  Tributário
+                </span>
+              </div>
+              <div class="p-6">
+                <h3 class="text-xl font-bold text-surface-ink leading-snug group-hover:text-cyanbrand transition-colors">
+                  Transação Tributária na PGFN vs. Parcelamento Comum: o que observar antes de aderir
+                </h3>
+                <p class="mt-3 text-sm text-surface-muted leading-relaxed">
+                  Entenda as diferenças entre a capacidade de pagamento (CAPAG), descontos em juros e multas e os cuidados jurídicos antes de consolidar débitos federais.
+                </p>
+              </div>
+            </div>
+            <div class="px-6 pb-6 pt-2">
+              <button type="button" data-article-id="0" class="open-article-btn text-sm font-bold text-cyanbrand hover:text-cyanbrand-hover inline-flex items-center gap-1 cursor-pointer">
+                Ler artigo completo »
+              </button>
+            </div>
+          </article>
+
+          <!-- Artigo 2 -->
+          <article class="bg-white rounded-[20px] shadow-md shadow-slate-900/5 border border-slate-200/80 overflow-hidden flex flex-col justify-between group hover:shadow-xl transition-all reveal">
+            <div>
+              <div class="relative h-44 bg-gradient-to-br from-navy-900 via-navy-700 to-gold/40 p-6 flex items-end overflow-hidden">
+                <svg class="absolute -right-6 -top-6 w-36 h-36 text-white/10" fill="none" stroke="currentColor" stroke-width="1.2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375"/></svg>
+                <span class="relative z-10 px-3.5 py-1 rounded-full bg-gold text-navy-950 text-xs font-bold uppercase tracking-wider">
+                  Créditos Fiscais
+                </span>
+              </div>
+              <div class="p-6">
+                <h3 class="text-xl font-bold text-surface-ink leading-snug group-hover:text-cyanbrand transition-colors">
+                  Impostos em duplicidade e PIS/COFINS Monofásico: como funciona a revisão dos últimos 5 anos
+                </h3>
+                <p class="mt-3 text-sm text-surface-muted leading-relaxed">
+                  Saiba por que empresas do Simples Nacional — como autopeças, farmácias e mercados — frequentemente recolhem tributos a maior e como fazer a revisão administrativa com segurança.
+                </p>
+              </div>
+            </div>
+            <div class="px-6 pb-6 pt-2">
+              <button type="button" data-article-id="1" class="open-article-btn text-sm font-bold text-cyanbrand hover:text-cyanbrand-hover inline-flex items-center gap-1 cursor-pointer">
+                Ler artigo completo »
+              </button>
+            </div>
+          </article>
+
+          <!-- Artigo 3 -->
+          <article class="bg-white rounded-[20px] shadow-md shadow-slate-900/5 border border-slate-200/80 overflow-hidden flex flex-col justify-between group hover:shadow-xl transition-all reveal">
+            <div>
+              <div class="relative h-44 bg-gradient-to-br from-navy-950 via-navy-800 to-cyanbrand/35 p-6 flex items-end overflow-hidden">
+                <svg class="absolute -right-6 -top-6 w-36 h-36 text-white/10" fill="none" stroke="currentColor" stroke-width="1.2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/></svg>
+                <span class="relative z-10 px-3.5 py-1 rounded-full bg-cyanbrand text-white text-xs font-semibold uppercase tracking-wider">
+                  Empresarial & Trabalhista
+                </span>
+              </div>
+              <div class="p-6">
+                <h3 class="text-xl font-bold text-surface-ink leading-snug group-hover:text-cyanbrand transition-colors">
+                  Adequação de escalas, controle de jornada e contratos blindados: como reduzir riscos na empresa
+                </h3>
+                <p class="mt-3 text-sm text-surface-muted leading-relaxed">
+                  Medidas preventivas no controle de ponto, regimento interno e formalização contratual evitam passivos ocultos e protegem a operação contra litígios recorrentes.
+                </p>
+              </div>
+            </div>
+            <div class="px-6 pb-6 pt-2">
+              <button type="button" data-article-id="2" class="open-article-btn text-sm font-bold text-cyanbrand hover:text-cyanbrand-hover inline-flex items-center gap-1 cursor-pointer">
+                Ler artigo completo »
+              </button>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         9. SEÇÃO #FAQ — PERGUNTAS FREQUENTES (ACORDEÃO ESCURO)
+    ========================================================== -->
+    <section id="faq" class="bg-navy-900 py-20 lg:py-28 border-t border-white/10">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 reveal">
+        <div class="text-center mb-12">
+          <span class="text-xs font-bold uppercase tracking-[0.18em] text-gold">Dúvidas Comuns</span>
+          <h2 class="mt-2 text-3xl sm:text-4xl font-extrabold text-white">Perguntas Frequentes</h2>
+        </div>
+
+        <div class="space-y-4">
+          <!-- FAQ 1 -->
+          <details class="faq-item group bg-navy-800/80 border border-white/10 rounded-2xl overflow-hidden transition-colors hover:border-cyanbrand/40">
+            <summary class="flex items-center justify-between gap-4 px-6 py-5 cursor-pointer text-white font-semibold text-base sm:text-lg select-none">
+              <span>1. Como funciona o diagnóstico jurídico inicial?</span>
+              <svg class="faq-chevron w-5 h-5 text-slate-400 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>
+            </summary>
+            <div class="px-6 pb-6 text-slate-300 text-sm sm:text-base font-light leading-relaxed border-t border-white/5 pt-4">
+              O diagnóstico inicial consiste em uma triagem técnica da sua demanda — seja ela tributária, trabalhista, contratual ou bancária. Após o envio das informações pelo formulário ou WhatsApp, o Dr. Arthur analisa o cenário apresentado, identifica eventuais riscos ou oportunidades legais e agenda uma conversa objetiva para apresentar o plano de atuação e a proposta de honorários de forma transparente.
+            </div>
+          </details>
+
+          <!-- FAQ 2 -->
+          <details class="faq-item group bg-navy-800/80 border border-white/10 rounded-2xl overflow-hidden transition-colors hover:border-cyanbrand/40">
+            <summary class="flex items-center justify-between gap-4 px-6 py-5 cursor-pointer text-white font-semibold text-base sm:text-lg select-none">
+              <span>2. O escritório atende empresas e pessoas físicas fora de Coronel Fabriciano/MG?</span>
+              <svg class="faq-chevron w-5 h-5 text-slate-400 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>
+            </summary>
+            <div class="px-6 pb-6 text-slate-300 text-sm sm:text-base font-light leading-relaxed border-t border-white/5 pt-4">
+              Sim. Além do atendimento presencial em Coronel Fabriciano e em todo o Vale do Aço (Ipatinga, Timóteo e região), operamos com estrutura 100% digital para atender clientes em qualquer estado do Brasil, com reuniões por videoconferência, assinatura eletrônica de documentos e acompanhamento processual em tribunais de todo o país.
+            </div>
+          </details>
+
+          <!-- FAQ 3 -->
+          <details class="faq-item group bg-navy-800/80 border border-white/10 rounded-2xl overflow-hidden transition-colors hover:border-cyanbrand/40">
+            <summary class="flex items-center justify-between gap-4 px-6 py-5 cursor-pointer text-white font-semibold text-base sm:text-lg select-none">
+              <span>3. É seguro compartilhar informações da minha empresa ou do meu caso?</span>
+              <svg class="faq-chevron w-5 h-5 text-slate-400 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>
+            </summary>
+            <div class="px-6 pb-6 text-slate-300 text-sm sm:text-base font-light leading-relaxed border-t border-white/5 pt-4">
+              Absolutamente. Todo contato é protegido pelo sigilo profissional previsto no Estatuto da Advocacia e no Código de Ética da OAB, bem como pelas diretrizes da Lei Geral de Proteção de Dados (LGPD). Nenhuma informação é compartilhada com terceiros e documentos sensíveis só são solicitados quando estritamente necessários à análise técnica.
+            </div>
+          </details>
+
+          <!-- FAQ 4 -->
+          <details class="faq-item group bg-navy-800/80 border border-white/10 rounded-2xl overflow-hidden transition-colors hover:border-cyanbrand/40">
+            <summary class="flex items-center justify-between gap-4 px-6 py-5 cursor-pointer text-white font-semibold text-base sm:text-lg select-none">
+              <span>4. O que é recuperação de crédito tributário e qual o prazo legal?</span>
+              <svg class="faq-chevron w-5 h-5 text-slate-400 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>
+            </summary>
+            <div class="px-6 pb-6 text-slate-300 text-sm sm:text-base font-light leading-relaxed border-t border-white/5 pt-4">
+              É o procedimento administrativo ou judicial previsto no Código Tributário Nacional (art. 168) que permite apurar e reaver tributos recolhidos indevidamente ou a maior nos últimos 5 anos (60 meses). A revisão analisa notas fiscais, NCMs e apurações (como PIS/COFINS monofásico no Simples Nacional e incidências indevidas de ICMS), respeitando integralmente a legislação e a jurisprudência atual.
+            </div>
+          </details>
+
+          <!-- FAQ 5 -->
+          <details class="faq-item group bg-navy-800/80 border border-white/10 rounded-2xl overflow-hidden transition-colors hover:border-cyanbrand/40">
+            <summary class="flex items-center justify-between gap-4 px-6 py-5 cursor-pointer text-white font-semibold text-base sm:text-lg select-none">
+              <span>5. Como funciona a transação tributária junto à PGFN?</span>
+              <svg class="faq-chevron w-5 h-5 text-slate-400 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>
+            </summary>
+            <div class="px-6 pb-6 text-slate-300 text-sm sm:text-base font-light leading-relaxed border-t border-white/5 pt-4">
+              A transação tributária é uma modalidade de negociação legal prevista na Lei nº 13.988/2020 que possibilita regularizar débitos inscritos em Dívida Ativa da União com prazos estendidos (que podem chegar a até 145 meses, conforme o enquadramento) e reduções sobre juros, multas e encargos de acordo com a classificação da capacidade de pagamento (CAPAG) do contribuinte e os editais vigentes.
+            </div>
+          </details>
+
+          <!-- FAQ 6 -->
+          <details class="faq-item group bg-navy-800/80 border border-white/10 rounded-2xl overflow-hidden transition-colors hover:border-cyanbrand/40">
+            <summary class="flex items-center justify-between gap-4 px-6 py-5 cursor-pointer text-white font-semibold text-base sm:text-lg select-none">
+              <span>6. Como funciona a assessoria jurídica mensal para empresas?</span>
+              <svg class="faq-chevron w-5 h-5 text-slate-400 shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg>
+            </summary>
+            <div class="px-6 pb-6 text-slate-300 text-sm sm:text-base font-light leading-relaxed border-t border-white/5 pt-4">
+              A assessoria mensal (partido jurídico) oferece à empresa um suporte contínuo com foco preventivo: consultas ilimitadas para tomada de decisão, elaboração e revisão de contratos comerciais e de trabalho, emissão de notificações extrajudiciais, orientação sobre rotinas trabalhistas e monitoramento preventivo de riscos — trazendo previsibilidade financeira e agilidade para a gestão.
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================
+       10. FOOTER PROFISSIONAL (#040D14)
+  ========================================================== -->
+  <footer id="contato" class="bg-navy-950 text-slate-300 border-t border-white/10 pt-16 pb-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-white/10">
+
+        <!-- Coluna 1: Marca e Redes -->
+        <div class="lg:col-span-5 space-y-5">
+          <div class="flex items-center gap-3">
+            <div class="w-11 h-11 rounded-xl bg-navy-800 border border-gold/60 flex items-center justify-center">
+              <span class="font-display font-bold text-lg text-white">AC</span>
+            </div>
+            <div>
+              <p class="text-white font-bold tracking-wide text-lg leading-tight">ARTHUR CRISTOFFER</p>
+              <p class="text-[11px] uppercase tracking-[0.14em] text-gold font-medium">Advocacia Estratégica • OAB/MG 243.943</p>
+            </div>
+          </div>
+
+          <p class="text-sm text-slate-400 leading-relaxed max-w-md">
+            Dr. Arthur Cristoffer Moizes Gomes — Advocacia especializada em Direito Tributário, Direito Empresarial e Direito Trabalhista para empresas (PJ) e pessoas físicas (PF). Atendimento presencial no Vale do Aço/MG e 100% digital em todo o Brasil.
+          </p>
+
+          <!-- Ícones Sociais Clicáveis -->
+          <div class="flex items-center gap-3 pt-1">
+            <a
+              href="https://wa.me/5531971466764?text=Ol%C3%A1%2C%20Dr.%20Arthur%20Cristoffer!%20Gostaria%20de%20conversar%20sobre%20atendimento%20jur%C3%ADdico."
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp Arthur Cristoffer Advocacia"
+              class="w-10 h-10 rounded-xl bg-navy-800 border border-white/10 hover:border-cyanbrand hover:text-cyanbrand flex items-center justify-center transition-colors"
+            >
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 448 512" aria-hidden="true"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+            </a>
+
+            <a
+              href="mailto:advogado.arthurcristoffer@gmail.com"
+              aria-label="E-mail Arthur Cristoffer Advocacia"
+              class="w-10 h-10 rounded-xl bg-navy-800 border border-white/10 hover:border-cyanbrand hover:text-cyanbrand flex items-center justify-center transition-colors"
+            >
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/></svg>
+            </a>
+
+            <a
+              href="https://www.instagram.com/arthurcristoffer/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram @arthurcristoffer"
+              class="w-10 h-10 rounded-xl bg-navy-800 border border-white/10 hover:border-gold hover:text-gold flex items-center justify-center transition-colors"
+            >
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 448 512" aria-hidden="true"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Coluna 2: Navegação Rápida -->
+        <div class="lg:col-span-3">
+          <h4 class="text-white font-semibold text-base mb-4 pb-2 border-b border-white/10 inline-block pr-8">Navegue</h4>
+          <ul class="space-y-2.5 text-sm">
+            <li><a href="#inicio" class="hover:text-cyanbrand transition-colors">Início</a></li>
+            <li><a href="#solucoes" class="hover:text-cyanbrand transition-colors">Soluções Jurídicas</a></li>
+            <li><a href="#diagnostico" class="hover:text-cyanbrand transition-colors">Diagnóstico Inicial</a></li>
+            <li><a href="#contrato" class="hover:text-cyanbrand transition-colors">Contrato Modelo Blindado</a></li>
+            <li><a href="#artigos" class="hover:text-cyanbrand transition-colors">Artigos & Informativos</a></li>
+            <li><a href="#faq" class="hover:text-cyanbrand transition-colors">Perguntas Frequentes (FAQ)</a></li>
+          </ul>
+        </div>
+
+        <!-- Coluna 3: Canais Oficiais de Atendimento -->
+        <div class="lg:col-span-4 space-y-4">
+          <h4 class="text-white font-semibold text-base pb-2 border-b border-white/10 inline-block pr-8">Canais Oficiais de Atendimento</h4>
+          <ul class="space-y-3 text-sm">
+            <li class="flex items-start gap-3">
+              <svg class="w-4 h-4 text-gold shrink-0 mt-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/></svg>
+              <span>Avenida Um, nº 123, Bairro Mangueiras<br>Coronel Fabriciano - MG • CEP 35.171-707</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <svg class="w-4 h-4 text-cyanbrand shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
+              <a href="https://wa.me/5531971466764?text=Ol%C3%A1%2C%20Dr.%20Arthur%20Cristoffer!%20Gostaria%20de%20conversar%20sobre%20atendimento%20jur%C3%ADdico." target="_blank" rel="noopener noreferrer" class="text-white font-semibold hover:text-cyanbrand transition-colors">
+                (31) 97146-6764 (WhatsApp / Telefone)
+              </a>
+            </li>
+            <li class="flex items-center gap-3">
+              <svg class="w-4 h-4 text-cyanbrand shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/></svg>
+              <a href="mailto:advogado.arthurcristoffer@gmail.com" class="hover:text-cyanbrand transition-colors break-all">
+                advogado.arthurcristoffer@gmail.com
+              </a>
+            </li>
+            <li class="flex items-center gap-3">
+              <svg class="w-4 h-4 text-gold shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              <span>Segunda a sexta-feira, das 08h às 18h</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Barra Inferior Legal & OAB -->
+      <div class="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+        <p class="text-center md:text-left">
+          © 2026 Arthur Cristoffer Moizes Gomes — Advocacia Estratégica | OAB/MG 243.943
+        </p>
+        <div class="flex flex-wrap items-center justify-center gap-4">
+          <button type="button" id="open-privacy-btn" class="text-cyanbrand hover:text-cyanbrand-light underline underline-offset-2 cursor-pointer">
+            Política de Privacidade (LGPD)
+          </button>
+          <span class="hidden sm:inline text-slate-700">•</span>
+          <span class="text-center">Conteúdo meramente informativo, em conformidade com o Provimento nº 205/2021 da OAB.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================
+       11. BOTÃO FLUTUANTE DE ATENDIMENTO + MODAL RÁPIDO
+  ========================================================== -->
+  <button
+    id="fab-atendimento"
+    type="button"
+    aria-label="Abrir canais rápidos de atendimento"
+    title="Atendimento Dr. Arthur Cristoffer"
+    class="fab-pulse fixed right-5 bottom-5 sm:right-6 sm:bottom-6 z-40 w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-cyanbrand hover:bg-cyanbrand-hover text-white flex items-center justify-center transition-transform hover:scale-105 cursor-pointer"
+  >
+    <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 9.75a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375m-13.5 3.01c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.184-4.183a1.14 1.14 0 01.778-.332 48.294 48.294 0 005.83-.498c1.585-.233 2.708-1.626 2.708-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"/>
+    </svg>
+  </button>
+
+  <!-- Modal de Atendimento Rápido -->
+  <div id="modal-atendimento" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-navy-950/80 backdrop-blur-sm" role="dialog" aria-modal="true" aria-labelledby="titulo-modal-atendimento">
+    <div class="bg-navy-800 border border-white/15 rounded-2xl max-w-md w-full p-6 sm:p-7 shadow-2xl relative overflow-hidden">
+      <div class="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-cyanbrand via-gold to-cyanbrand"></div>
+      <div class="flex items-start justify-between gap-4 mb-5">
+        <div>
+          <p class="text-xs font-bold uppercase tracking-widest text-gold">Atendimento Direto</p>
+          <h3 id="titulo-modal-atendimento" class="text-xl font-bold text-white mt-0.5">Fale com Dr. Arthur Cristoffer</h3>
+          <p class="text-xs text-slate-400 mt-1">OAB/MG 243.943 • Seg a Sex, 08h às 18h</p>
+        </div>
+        <button type="button" data-close-modal="modal-atendimento" aria-label="Fechar janela de atendimento" class="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center cursor-pointer">
+          ✕
+        </button>
+      </div>
+
+      <div class="space-y-3">
+        <a
+          href="https://wa.me/5531971466764?text=Ol%C3%A1%2C%20Dr.%20Arthur%20Cristoffer!%20Gostaria%20de%20iniciar%20um%20atendimento%20jur%C3%ADdico."
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex items-center gap-3.5 p-4 rounded-xl bg-cyanbrand hover:bg-cyanbrand-hover text-white transition-colors"
+        >
+          <svg class="w-6 h-6 fill-current shrink-0" viewBox="0 0 448 512" aria-hidden="true"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+          <div>
+            <span class="block font-bold text-sm">Chamar no WhatsApp</span>
+            <span class="block text-xs text-white/90">(31) 97146-6764</span>
+          </div>
+        </a>
+
+        <a
+          href="mailto:advogado.arthurcristoffer@gmail.com?subject=Atendimento%20Jur%C3%ADdico%20-%20Site%20Institucional"
+          class="flex items-center gap-3.5 p-4 rounded-xl bg-navy-900 hover:bg-navy-700 border border-white/10 text-white transition-colors"
+        >
+          <svg class="w-6 h-6 text-gold shrink-0" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/></svg>
+          <div class="min-w-0">
+            <span class="block font-bold text-sm">Enviar E-mail Direto</span>
+            <span class="block text-xs text-slate-400 truncate">advogado.arthurcristoffer@gmail.com</span>
+          </div>
+        </a>
+
+        <button
+          type="button"
+          id="fab-go-diagnostico"
+          class="w-full flex items-center gap-3.5 p-4 rounded-xl bg-navy-900 hover:bg-navy-700 border border-white/10 text-white text-left transition-colors cursor-pointer"
+        >
+          <svg class="w-6 h-6 text-cyanbrand shrink-0" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25z"/></svg>
+          <div>
+            <span class="block font-bold text-sm">Preencher Formulário de Diagnóstico</span>
+            <span class="block text-xs text-slate-400">Envio estruturado da sua demanda</span>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal de Leitura de Artigos -->
+  <div id="modal-artigo" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-navy-950/80 backdrop-blur-sm" role="dialog" aria-modal="true" aria-labelledby="artigo-modal-titulo">
+    <div class="bg-white rounded-2xl max-w-2xl w-full max-h-[88vh] flex flex-col shadow-2xl overflow-hidden">
+      <div class="bg-navy-900 px-6 py-5 flex items-start justify-between gap-4 border-b border-white/10">
+        <div>
+          <span id="artigo-modal-cat" class="inline-block px-3 py-1 rounded-full bg-cyanbrand/20 text-cyanbrand-light text-xs font-semibold uppercase tracking-wider mb-2"></span>
+          <h3 id="artigo-modal-titulo" class="text-xl sm:text-2xl font-bold text-white leading-snug"></h3>
+          <p class="text-xs text-slate-400 mt-1.5">Por Dr. Arthur Cristoffer Moizes Gomes • OAB/MG 243.943</p>
+        </div>
+        <button type="button" data-close-modal="modal-artigo" aria-label="Fechar artigo" class="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center shrink-0 cursor-pointer">
+          ✕
+        </button>
+      </div>
+
+      <div id="artigo-modal-corpo" class="p-6 sm:p-8 overflow-y-auto space-y-4 text-surface-ink text-base leading-relaxed">
+        <!-- Injetado via JavaScript -->
+      </div>
+
+      <div class="px-6 py-4 bg-surface-light border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-3">
+        <span class="text-xs text-surface-muted">Ficou com alguma dúvida sobre como isso se aplica ao seu caso?</span>
+        <a
+          id="artigo-modal-wpp"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 bg-cyanbrand hover:bg-cyanbrand-hover text-white text-sm font-semibold px-5 py-2.5 rounded-xl transition-colors shrink-0"
+        >
+          <span>Tirar dúvida com Dr. Arthur no WhatsApp</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal de Política de Privacidade (LGPD) -->
+  <div id="modal-privacidade" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-navy-950/80 backdrop-blur-sm" role="dialog" aria-modal="true" aria-labelledby="titulo-modal-privacidade">
+    <div class="bg-white rounded-2xl max-w-2xl w-full max-h-[85vh] flex flex-col shadow-2xl overflow-hidden">
+      <div class="bg-navy-900 px-6 py-5 flex items-center justify-between border-b border-white/10">
+        <h3 id="titulo-modal-privacidade" class="text-lg sm:text-xl font-bold text-white">Política de Privacidade e Proteção de Dados (LGPD)</h3>
+        <button type="button" data-close-modal="modal-privacidade" aria-label="Fechar política de privacidade" class="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center cursor-pointer">
+          ✕
+        </button>
+      </div>
+      <div class="p-6 sm:p-8 overflow-y-auto space-y-4 text-sm text-surface-muted leading-relaxed">
+        <p><strong class="text-surface-ink">1. Controlador dos Dados:</strong> Arthur Cristoffer Moizes Gomes — Advocacia Estratégica (OAB/MG 243.943), com endereço na Avenida Um, nº 123, Bairro Mangueiras, Coronel Fabriciano - MG, CEP 35.171-707, e-mail <a href="mailto:advogado.arthurcristoffer@gmail.com" class="text-cyanbrand underline">advogado.arthurcristoffer@gmail.com</a>.</p>
+        <p><strong class="text-surface-ink">2. Finalidade da Coleta:</strong> Os dados informados voluntariamente nos formulários de diagnóstico ou de download do Contrato Modelo Blindado (nome, e-mail, WhatsApp, perfil e área de interesse) são utilizados exclusivamente para retorno de atendimento jurídico, envio do material solicitado e, quando autorizado, envio de informativos jurídicos segmentados.</p>
+        <p><strong class="text-surface-ink">3. Sigilo e Compartilhamento:</strong> Todos os dados são protegidos pelo sigilo profissional da advocacia (Lei nº 8.906/1994) e pela LGPD (Lei nº 13.709/2018). Não comercializamos nem compartilhamos dados pessoais com terceiros para fins publicitários.</p>
+        <p><strong class="text-surface-ink">4. Direitos do Titular:</strong> A qualquer momento, você pode solicitar a confirmação, correção, exclusão dos seus dados ou o cancelamento da inscrição na newsletter enviando mensagem para <a href="mailto:advogado.arthurcristoffer@gmail.com" class="text-cyanbrand underline">advogado.arthurcristoffer@gmail.com</a> ou pelo WhatsApp (31) 97146-6764.</p>
+      </div>
+      <div class="px-6 py-4 bg-surface-light border-t border-slate-200 text-right">
+        <button type="button" data-close-modal="modal-privacidade" class="bg-navy-900 hover:bg-navy-800 text-white text-sm font-semibold px-5 py-2.5 rounded-xl cursor-pointer">Entendido</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================
+       JAVASCRIPT PURO + CONFIGURAÇÃO CENTRALIZADA
+  ========================================================== -->
+  <script>
+    /**
+     * CONFIGURAÇÃO CENTRALIZADA DO ESCRITÓRIO
+     * Ajuste os links do Google Apps Script e do PDF real quando desejar.
+     * Todos os botões funcionam imediatamente mesmo sem preencher as URLs opcionais.
+     */
+    const CONFIG = {
+      whatsappNumero: "5531971466764",
+      emailContato: "advogado.arthurcristoffer@gmail.com",
+      instagramUrl: "https://www.instagram.com/arthurcristoffer/",
+      appsScriptUrl: "", // Cole aqui a URL do seu Web App do Google Apps Script para salvar leads na planilha Google Sheets
+      contratoPdfUrl: "" // Cole aqui o link do PDF do seu Contrato Modelo Blindado (Google Drive ou arquivo na pasta do GitHub)
+    };
+
+    /* =========================================================
+       CONTEÚDO COMPLETO DOS ARTIGOS JURÍDICOS
+    ========================================================== */
+    const ARTIGOS = [
+      {
+        categoria: "Tributário",
+        titulo: "Transação Tributária na PGFN vs. Parcelamento Comum: o que observar antes de aderir",
+        paragrafos: [
+          "Quando uma empresa acumula débitos fiscais inscritos em Dívida Ativa da União, a reação mais comum é aderir rapidamente ao primeiro parcelamento ordinário disponível. Contudo, essa decisão precipitada pode comprometer o fluxo de caixa e impedir o aproveitamento de condições muito mais sustentáveis previstas na legislação.",
+          "Enquanto o parcelamento comum costuma limitar o prazo a 60 meses e não oferece descontos sobre juros e multas, a Transação Tributária — regulamentada pela Lei nº 13.988/2020 e pelos editais periódicos da Procuradoria-Geral da Fazenda Nacional (PGFN) — analisa a real Capacidade de Pagamento (CAPAG) do contribuinte.",
+          "Dependendo da classificação da dívida e do porte empresarial (como ME, EPP ou empresas em recuperação), a transação pode viabilizar prazos estendidos de até 145 meses, entrada facilitada e descontos legais sobre encargos, juros e multas, preservando o capital de giro.",
+          "Antes de qualquer adesão, é indispensável realizar uma auditoria prévia das inscrições em dívida ativa para verificar eventuais débitos prescritos, cobranças em duplicidade ou possibilidade de revisão da nota CAPAG — evitando confessar valores indevidos."
+        ]
+      },
+      {
+        categoria: "Créditos Fiscais",
+        titulo: "Impostos em duplicidade e PIS/COFINS Monofásico: como funciona a revisão dos últimos 5 anos",
+        paragrafos: [
+          "Empresas optantes pelo Simples Nacional que comercializam produtos sujeitos à tributação monofásica — como autopeças, pneumáticos, farmácias, cosméticos, bebidas frias e minimercados — frequentemente recolhem PIS e COFINS em duplicidade sem perceber.",
+          "Na sistemática monofásica, a indústria ou o importador já recolhe integralmente a contribuição na origem da cadeia. Assim, o revendedor varejista ou atacadista tem o direito legal de segregar essas receitas no cálculo do DAS para evitar a bitributação.",
+          "Com fundamento no art. 168 do Código Tributário Nacional, é possível revisar a escrituração fiscal dos últimos 5 anos (60 meses), cruzando os arquivos XML das notas fiscais emitidas item a item pela classificação NCM.",
+          "Uma vez apurados os valores pagos a maior com respaldo documental, a restituição ou compensação pode ser requerida administrativamente junto à Receita Federal, sempre com total segurança jurídica e observância rigorosa da legislação vigente."
+        ]
+      },
+      {
+        categoria: "Empresarial & Trabalhista",
+        titulo: "Adequação de escalas, controle de jornada e contratos blindados: como reduzir riscos na empresa",
+        paragrafos: [
+          "Grande parte dos passivos trabalhistas e comerciais nasce não da má-fé, mas da informalidade nas rotinas diárias da empresa. Escalas de trabalho sem formalização correta, controle de ponto inconsistente e contratos genéricos retirados da internet abrem brechas graves em eventual litígio.",
+          "No campo trabalhista, a revisão preventiva envolve adequar bancos de horas, acordos individuais ou coletivos, fichas de EPI, regimento interno e critérios claros de registro de jornada — garantindo conformidade com a CLT e previsibilidade de custos.",
+          "No âmbito empresarial, um contrato bem redigido define com precisão o escopo dos serviços, prazos de entrega, critérios de reajuste, multas proporcionais, cláusula de confidencialidade e regras claras de rescisão, reduzindo drasticamente a inadimplência e disputas judiciais.",
+          "Investir em prevenção jurídica mensal costuma representar uma fração mínima do custo de uma condenação judicial ou de uma execução inesperada, fortalecendo a governança e o crescimento seguro do negócio."
+        ]
+      }
+    ];
+
+    /* =========================================================
+       UTILITÁRIOS GERAIS
+    ========================================================== */
+    function formatarTelefone(valor) {
+      const nums = valor.replace(/\D/g, "").slice(0, 11);
+      if (nums.length <= 2) return nums;
+      if (nums.length <= 6) return `(${nums.slice(0, 2)}) ${nums.slice(2)}`;
+      if (nums.length <= 10) return `(${nums.slice(0, 2)}) ${nums.slice(2, 6)}-${nums.slice(6)}`;
+      return `(${nums.slice(0, 2)}) ${nums.slice(2, 7)}-${nums.slice(7)}`;
+    }
+
+    function validarEmail(email) {
+      return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    }
+
+    function mostrarFeedback(elemento, mensagem, tipo) {
+      elemento.classList.remove("hidden", "bg-red-50", "text-red-700", "border-red-200", "bg-emerald-50", "text-emerald-800", "border-emerald-200", "bg-red-500/15", "text-red-200", "border-red-400/30", "bg-emerald-500/15", "text-emerald-200", "border-emerald-400/30");
+      elemento.classList.add("border");
+      if (tipo === "erro-claro") {
+        elemento.classList.add("bg-red-50", "text-red-700", "border-red-200");
+      } else if (tipo === "sucesso-claro") {
+        elemento.classList.add("bg-emerald-50", "text-emerald-800", "border-emerald-200");
+      } else if (tipo === "erro-escuro") {
+        elemento.classList.add("bg-red-500/15", "text-red-200", "border-red-400/30");
+      } else {
+        elemento.classList.add("bg-emerald-500/15", "text-emerald-200", "border-emerald-400/30");
+      }
+      elemento.textContent = mensagem;
+    }
+
+    /**
+     * Envia os dados para o Google Apps Script (Google Sheets) caso CONFIG.appsScriptUrl esteja configurado.
+     * Falhas de rede nunca bloqueiam o WhatsApp, E-mail ou Download.
+     */
+    async function enviarParaPlanilha(payload) {
+      if (!CONFIG.appsScriptUrl || !CONFIG.appsScriptUrl.trim()) return;
+      try {
+        await fetch(CONFIG.appsScriptUrl.trim(), {
+          method: "POST",
+          mode: "no-cors",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            ...payload,
+            dataHora: new Date().toLocaleString("pt-BR")
+          })
+        });
+      } catch (err) {
+        console.warn("Integração opcional Apps Script não pôde ser concluída:", err);
+      }
+    }
+
+    /* =========================================================
+       INICIALIZAÇÃO DO DOM
+    ========================================================== */
+    document.addEventListener("DOMContentLoaded", () => {
+      /* 1. Máscara de telefone em todos os inputs .phone-mask */
+      document.querySelectorAll(".phone-mask").forEach((input) => {
+        input.addEventListener("input", (e) => {
+          e.target.value = formatarTelefone(e.target.value);
+        });
+      });
+
+      /* 2. Menu Mobile Hambúrguer */
+      const mobileBtn = document.getElementById("mobile-menu-btn");
+      const mobileMenu = document.getElementById("mobile-menu");
+      const iconOpen = document.getElementById("icon-menu-open");
+      const iconClose = document.getElementById("icon-menu-close");
+
+      function toggleMobileMenu(forceClose = false) {
+        const isOpen = !mobileMenu.classList.contains("hidden");
+        const shouldClose = forceClose || isOpen;
+        mobileMenu.classList.toggle("hidden", shouldClose);
+        iconOpen.classList.toggle("hidden", !shouldClose);
+        iconClose.classList.toggle("hidden", shouldClose);
+        mobileBtn.setAttribute("aria-expanded", String(!shouldClose));
+      }
+
+      if (mobileBtn) {
+        mobileBtn.addEventListener("click", () => toggleMobileMenu());
+      }
+      document.querySelectorAll(".mobile-nav-link").forEach((link) => {
+        link.addEventListener("click", () => toggleMobileMenu(true));
+      });
+
+      /* 3. Animações suaves ao rolar (IntersectionObserver) */
+      const revealEls = document.querySelectorAll(".reveal");
+      if ("IntersectionObserver" in window) {
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("visible");
+                observer.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.12, rootMargin: "0px 0px -40px 0px" }
+        );
+        revealEls.forEach((el) => observer.observe(el));
+      } else {
+        revealEls.forEach((el) => el.classList.add("visible"));
+      }
+
+      /* 4. Botões dos cards de Soluções: pré-seleciona a área e rola até #diagnostico */
+      const selectAreaField = document.getElementById("diag-area");
+      document.querySelectorAll(".select-area-btn").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const area = btn.getAttribute("data-select-area");
+          if (selectAreaField && area) {
+            selectAreaField.value = area;
+          }
+          const secDiag = document.getElementById("diagnostico");
+          if (secDiag) {
+            secDiag.scrollIntoView({ behavior: "smooth" });
+            setTimeout(() => {
+              const nomeField = document.getElementById("diag-nome");
+              if (nomeField) nomeField.focus();
+            }, 600);
+          }
+        });
+      });
+
+      /* 5. Formulário de Diagnóstico Interativo (WhatsApp e E-mail) */
+      const diagFeedback = document.getElementById("diag-feedback");
+      const btnEnviarWpp = document.getElementById("btn-enviar-whatsapp");
+      const btnEnviarEmail = document.getElementById("btn-enviar-email");
+
+      function coletarValidarDiagnostico() {
+        const nome = document.getElementById("diag-nome").value.trim();
+        const perfil = document.getElementById("diag-perfil").value;
+        const empresa = document.getElementById("diag-empresa").value.trim();
+        const whatsapp = document.getElementById("diag-whatsapp").value.trim();
+        const email = document.getElementById("diag-email").value.trim();
+        const area = document.getElementById("diag-area").value;
+        const mensagem = document.getElementById("diag-mensagem").value.trim();
+
+        if (!nome || !whatsapp || !email || !mensagem) {
+          mostrarFeedback(diagFeedback, "Por favor, preencha todos os campos obrigatórios marcados com *.", "erro-claro");
+          return null;
+        }
+        if (!validarEmail(email)) {
+          mostrarFeedback(diagFeedback, "Por favor, informe um endereço de e-mail válido.", "erro-claro");
+          return null;
+        }
+        if (whatsapp.replace(/\D/g, "").length < 10) {
+          mostrarFeedback(diagFeedback, "Informe um número de WhatsApp válido com DDD.", "erro-claro");
+          return null;
+        }
+        return { nome, perfil, empresa, whatsapp, email, area, mensagem };
+      }
+
+      if (btnEnviarWpp) {
+        btnEnviarWpp.addEventListener("click", async () => {
+          const dados = coletarValidarDiagnostico();
+          if (!dados) return;
+
+          mostrarFeedback(diagFeedback, "Dados validados! Abrindo o WhatsApp do Dr. Arthur Cristoffer...", "sucesso-claro");
+          enviarParaPlanilha({ origem: "Formulario_Diagnostico_WhatsApp", ...dados });
+
+          const textoWpp = [
+            "Olá, Dr. Arthur Cristoffer! Solicito um Diagnóstico Jurídico pelo site:",
+            "",
+            `*Nome:* ${dados.nome}`,
+            `*Perfil:* ${dados.perfil}`,
+            dados.empresa ? `*Empresa / CNPJ:* ${dados.empresa}` : null,
+            `*WhatsApp:* ${dados.whatsapp}`,
+            `*E-mail:* ${dados.email}`,
+            `*Área de interesse:* ${dados.area}`,
+            `*Resumo da situação:* ${dados.mensagem}`
+          ].filter(Boolean).join("\n");
+
+          const url = `https://wa.me/${CONFIG.whatsappNumero}?text=${encodeURIComponent(textoWpp)}`;
+          window.open(url, "_blank", "noopener,noreferrer");
+        });
+      }
+
+      if (btnEnviarEmail) {
+        btnEnviarEmail.addEventListener("click", async () => {
+          const dados = coletarValidarDiagnostico();
+          if (!dados) return;
+
+          mostrarFeedback(diagFeedback, "Dados validados! Abrindo seu aplicativo de e-mail...", "sucesso-claro");
+          enviarParaPlanilha({ origem: "Formulario_Diagnostico_Email", ...dados });
+
+          const assunto = `Diagnóstico Jurídico (${dados.area}) - ${dados.nome}`;
+          const corpo = [
+            "Olá, Dr. Arthur Cristoffer,",
+            "",
+            "Gostaria de solicitar um diagnóstico jurídico com os dados abaixo:",
+            "",
+            `Nome: ${dados.nome}`,
+            `Perfil: ${dados.perfil}`,
+            dados.empresa ? `Empresa / CNPJ: ${dados.empresa}` : null,
+            `WhatsApp: ${dados.whatsapp}`,
+            `E-mail: ${dados.email}`,
+            `Área de interesse: ${dados.area}`,
+            "",
+            "Descrição da situação:",
+            dados.mensagem
+          ].filter((l) => l !== null).join("\n");
+
+          window.location.href = `mailto:${CONFIG.emailContato}?subject=${encodeURIComponent(assunto)}&body=${encodeURIComponent(corpo)}`;
+        });
+      }
+
+      /* 6. Isca Digital: Contrato Modelo Blindado + Newsletter Segmentada */
+      const contratoForm = document.getElementById("contrato-form");
+      const contratoFeedback = document.getElementById("contrato-feedback");
+      const contratoLiberado = document.getElementById("contrato-liberado");
+      const btnBaixarContrato = document.getElementById("btn-baixar-contrato");
+      let ultimoLeadContrato = null;
+
+      if (contratoForm) {
+        contratoForm.addEventListener("submit", (e) => {
+          e.preventDefault();
+          const nome = document.getElementById("lead-nome").value.trim();
+          const email = document.getElementById("lead-email").value.trim();
+          const whatsapp = document.getElementById("lead-whatsapp").value.trim();
+          const areasSelecionadas = Array.from(
+            contratoForm.querySelectorAll('input[name="newsletter_area"]:checked')
+          ).map((cb) => cb.value);
+
+          if (!nome || !email || !whatsapp) {
+            mostrarFeedback(contratoFeedback, "Preencha nome, e-mail e WhatsApp para liberar o download.", "erro-escuro");
+            return;
+          }
+          if (!validarEmail(email)) {
+            mostrarFeedback(contratoFeedback, "Por favor, informe um e-mail válido.", "erro-escuro");
+            return;
+          }
+          if (whatsapp.replace(/\D/g, "").length < 10) {
+            mostrarFeedback(contratoFeedback, "Informe um número de WhatsApp válido com DDD.", "erro-escuro");
+            return;
+          }
+
+          ultimoLeadContrato = {
+            nome,
+            email,
+            whatsapp,
+            newsletterAreas: areasSelecionadas.length ? areasSelecionadas.join(", ") : "Geral"
+          };
+
+          enviarParaPlanilha({
+            origem: "Contrato_Modelo_Blindado_Newsletter",
+            ...ultimoLeadContrato
+          });
+
+          // Atualiza link do WhatsApp personalizado com o nome do lead
+          const btnWppContrato = document.getElementById("btn-contrato-whatsapp");
+          if (btnWppContrato) {
+            const msg = `Olá, Dr. Arthur! Sou ${nome}. Acabei de baixar o Contrato Modelo Blindado e tenho interesse em uma revisão personalizada (áreas: ${ultimoLeadContrato.newsletterAreas}).`;
+            btnWppContrato.href = `https://wa.me/${CONFIG.whatsappNumero}?text=${encodeURIComponent(msg)}`;
+          }
+
+          contratoFeedback.classList.add("hidden");
+          contratoForm.classList.add("hidden");
+          contratoLiberado.classList.remove("hidden");
+        });
+      }
+
+      if (btnBaixarContrato) {
+        btnBaixarContrato.addEventListener("click", () => {
+          // Se o advogado configurou um PDF real em CONFIG.contratoPdfUrl, abre/baixa esse arquivo
+          if (CONFIG.contratoPdfUrl && CONFIG.contratoPdfUrl.trim()) {
+            window.open(CONFIG.contratoPdfUrl.trim(), "_blank", "noopener,noreferrer");
+            return;
+          }
+
+          // Caso contrário, gera automaticamente uma minuta estruturada em arquivo .txt pronta para uso/referência
+          const conteudoMinuta = [
+            "=========================================================================",
+            "CONTRATO MODELO BLINDADO — MINUTA ESTRUTURAL ORIENTATIVA (EDIÇÃO 2026)",
+            "Arthur Cristoffer Advocacia Estratégica | OAB/MG 243.943",
+            "WhatsApp: (31) 97146-6764 | E-mail: advogado.arthurcristoffer@gmail.com",
+            "=========================================================================",
+            "",
+            "CONTRATO DE PRESTAÇÃO DE SERVIÇOS EMPRESARIAIS",
+            "",
+            "Pelo presente instrumento particular, de um lado [RAZÃO SOCIAL CONTRATANTE],",
+            "inscrita no CNPJ sob o nº [00.000.000/0001-00], com sede em [ENDEREÇO],",
+            "doravante denominada CONTRATANTE, e de outro lado [RAZÃO SOCIAL CONTRATADA],",
+            "inscrita no CNPJ sob o nº [00.000.000/0001-00], doravante denominada CONTRATADA,",
+            "celebram o presente Contrato mediante as cláusulas essenciais abaixo:",
+            "",
+            "CLÁUSULA 1ª — DO OBJETO E ESCOPO DELIMITADO",
+            "1.1. A CONTRATADA obriga-se a prestar os serviços descritos exclusivamente no",
+            "Anexo I (Proposta Técnica), não se presumindo obrigações acessórias não pactuadas.",
+            "1.2. Alterações de escopo demandarão aditivo escrito e readequação de valores.",
+            "",
+            "CLÁUSULA 2ª — PREÇO, PAGAMENTO E INADIMPLEMENTO",
+            "2.1. Pelos serviços, a CONTRATANTE pagará o valor de R$ [VALOR], conforme cronograma.",
+            "2.2. O atraso no pagamento acarretará multa moratória de 2%, juros de 1% ao mês,",
+            "correção monetária (IPCA) e faculdade de suspensão dos serviços após 10 dias.",
+            "",
+            "CLÁUSULA 3ª — AUTONOMIA E AUSÊNCIA DE VÍNCULO EMPREGATÍCIO",
+            "3.1. A relação entre as partes é estritamente civil/empresarial, inexistindo",
+            "subordinação jurídica, habitualidade pessoal ou vínculo trabalhista entre as partes.",
+            "",
+            "CLÁUSULA 4ª — CONFIDENCIALIDADE E PROTEÇÃO DE DADOS (LGPD)",
+            "4.1. As partes comprometem-se a manter sigilo absoluto sobre informações técnicas,",
+            "comerciais e dados pessoais tratados, observando a Lei nº 13.709/2018 (LGPD).",
+            "",
+            "CLÁUSULA 5ª — VIGÊNCIA, RESCISÃO E MULTA COMPENSATÓRIA",
+            "5.1. O contrato vigorará por [PRAZO], podendo ser rescindido mediante aviso prévio",
+            "escrito de 30 (trinta) dias. A rescisão imotivada antecipada sujeitará a parte",
+            "infratora à multa compensatória proporcional prevista no Anexo Comercial.",
+            "",
+            "CLÁUSULA 6ª — LIMITAÇÃO DE RESPONSABILIDADE E FORO",
+            "6.1. A responsabilidade da CONTRATADA limita-se aos danos diretos comprovados,",
+            "limitados ao valor global efetivamente pago nos últimos 12 meses.",
+            "6.2. Fica eleito o foro da Comarca de [CIDADE/UF] para dirimir eventuais litígios.",
+            "",
+            "-------------------------------------------------------------------------",
+            "NOTA IMPORTANTE: Esta é uma minuta estrutural educativa.",
+            "Cada operação empresarial exige adaptação técnica específica para evitar",
+            "nulidades e passivos ocultos. Para revisão personalizada do seu contrato,",
+            "fale diretamente com o Dr. Arthur Cristoffer: (31) 97146-6764.",
+            "-------------------------------------------------------------------------"
+          ].join("\n");
+
+          const blob = new Blob([conteudoMinuta], { type: "text/plain;charset=utf-8" });
+          const urlBlob = URL.createObjectURL(blob);
+          const link = document.createElement("a");
+          link.href = urlBlob;
+          link.download = "Contrato-Modelo-Blindado-Arthur-Cristoffer-Advocacia.txt";
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+          setTimeout(() => URL.revokeObjectURL(urlBlob), 1000);
+        });
+      }
+
+      /* 7. Modais (Atendimento Flutuante, Leitura de Artigos e Política de Privacidade) */
+      function abrirModal(id) {
+        const modal = document.getElementById(id);
+        if (!modal) return;
+        modal.classList.remove("hidden");
+        modal.classList.add("flex");
+        document.body.style.overflow = "hidden";
+      }
+
+      function fecharModal(id) {
+        const modal = document.getElementById(id);
+        if (!modal) return;
+        modal.classList.add("hidden");
+        modal.classList.remove("flex");
+        document.body.style.overflow = "";
+      }
+
+      // Botão flutuante
+      const fabBtn = document.getElementById("fab-atendimento");
+      if (fabBtn) {
+        fabBtn.addEventListener("click", () => abrirModal("modal-atendimento"));
+      }
+
+      // Ação "Preencher Diagnóstico" dentro do modal flutuante
+      const fabGoDiag = document.getElementById("fab-go-diagnostico");
+      if (fabGoDiag) {
+        fabGoDiag.addEventListener("click", () => {
+          fecharModal("modal-atendimento");
+          const sec = document.getElementById("diagnostico");
+          if (sec) sec.scrollIntoView({ behavior: "smooth" });
+        });
+      }
+
+      // Botões de abrir artigos
+      const artigoCat = document.getElementById("artigo-modal-cat");
+      const artigoTit = document.getElementById("artigo-modal-titulo");
+      const artigoCorpo = document.getElementById("artigo-modal-corpo");
+      const artigoWpp = document.getElementById("artigo-modal-wpp");
+
+      document.querySelectorAll(".open-article-btn").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const idx = Number(btn.getAttribute("data-article-id"));
+          const artigo = ARTIGOS[idx];
+          if (!artigo) return;
+
+          artigoCat.textContent = artigo.categoria;
+          artigoTit.textContent = artigo.titulo;
+          artigoCorpo.innerHTML = artigo.paragrafos
+            .map((p) => `<p class="text-surface-muted leading-relaxed">${p}</p>`)
+            .join("");
+
+          const msgArtigo = `Olá, Dr. Arthur! Li o artigo "${artigo.titulo}" no seu site e gostaria de tirar uma dúvida.`;
+          artigoWpp.href = `https://wa.me/${CONFIG.whatsappNumero}?text=${encodeURIComponent(msgArtigo)}`;
+          abrirModal("modal-artigo");
+        });
+      });
+
+      // Botão Política de Privacidade
+      const openPrivacyBtn = document.getElementById("open-privacy-btn");
+      if (openPrivacyBtn) {
+        openPrivacyBtn.addEventListener("click", () => abrirModal("modal-privacidade"));
+      }
+
+      // Fechar modais via botão X ou clique fora
+      document.querySelectorAll("[data-close-modal]").forEach((btn) => {
+        btn.addEventListener("click", () => fecharModal(btn.getAttribute("data-close-modal")));
+      });
+
+      ["modal-atendimento", "modal-artigo", "modal-privacidade"].forEach((id) => {
+        const modal = document.getElementById(id);
+        if (!modal) return;
+        modal.addEventListener("click", (e) => {
+          if (e.target === modal) fecharModal(id);
+        });
+      });
+
+      // Fechar modais com tecla Escape
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") {
+          ["modal-atendimento", "modal-artigo", "modal-privacidade"].forEach(fecharModal);
+        }
+      });
+
+      /* 8. Acordeão FAQ: mantém apenas 1 item aberto por vez para visual limpo */
+      const faqItems = document.querySelectorAll("details.faq-item");
+      faqItems.forEach((item) => {
+        item.addEventListener("toggle", () => {
+          if (item.open) {
+            faqItems.forEach((other) => {
+              if (other !== item && other.open) other.removeAttribute("open");
+            });
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
